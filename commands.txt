@@ -2,7 +2,7 @@ sudo nano /etc/systemd/system/wells.service
 sudo systemctl daemon-reload
 
 sudo systemctl restart wells.service
-
+find . -type d -name "__pycache__" -exec rm -r {} +; find . -type f -name "*.pyc" -delete
 
 pip install --upgrade pip setuptools
 pip cache list

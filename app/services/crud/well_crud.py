@@ -24,7 +24,7 @@ async def get_wells() -> List[WellsModel]:
         try:
             result = await session.execute(select(WellsModel))  # type: ignore
             wells = result.scalars().all()
-            return wells
+            return list(wells)
         except SQLAlchemyError as e:
             logger.error(f"Error fetching all wells: {e}")
             return []

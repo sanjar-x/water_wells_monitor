@@ -1,9 +1,8 @@
-from uvicorn import run
+import asyncio
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
 from app.routers.endpoints.auth.sign_in import router as sign_in_router
-
 from app.routers.endpoints.user.create_user import router as create_user_router
 from app.routers.endpoints.user.get_users import router as get_users_router
 from app.routers.endpoints.user.get_user import router as get_user_router
@@ -44,7 +43,7 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:3000", "https://quduqloyiha.uz"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -93,10 +92,10 @@ async def init_database():
             Base,
         )
 
-        await conn.run_sync(Base.metadata.drop_all)
-        await conn.run_sync(Base.metadata.create_all)
+        await conn.run_sync(MessageModel.metadata.drop_all)
+        await conn.run_sync(MessageModel.metadata.create_all)
 
 
-# if __name__ == "__main__":
-#     asyncio.run(init_database())
+if __name__ == "__main__":
+    asyncio.run(init_database())
 # run("main:app", host="0.0.0.0", port=HTTP_PORT, reload=True)
