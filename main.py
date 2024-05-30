@@ -43,7 +43,11 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://quduqloyiha.uz"],
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:3000/",
+        "https://quduqloyiha.uz",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -96,6 +100,6 @@ async def init_database():
         await conn.run_sync(MessageModel.metadata.create_all)
 
 
-if __name__ == "__main__":
-    asyncio.run(init_database())
+# if __name__ == "__main__":
+# asyncio.run(init_database())
 # run("main:app", host="0.0.0.0", port=HTTP_PORT, reload=True)
