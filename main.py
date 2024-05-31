@@ -97,6 +97,5 @@ async def init_database():
         await conn.run_sync(MessageModel.metadata.create_all)
 
 
-# if __name__ == "__main__":
-# asyncio.run(init_database())
-# run("main:app", host="0.0.0.0", port=HTTP_PORT, reload=True)
+if __name__ == "__main__":
+    asyncio.run(init_database())

@@ -1,5 +1,5 @@
 import uuid
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from sqlalchemy import Column, Boolean, String, DateTime
 from sqlalchemy.orm import DeclarativeBase
@@ -64,6 +64,7 @@ class MessageModel(Base):
     salinity = Column(String, nullable=True)
     water_level = Column(String, nullable=True)
     number = Column(String, nullable=True)
+    received_at = Column(DateTime, default=datetime.now(timezone(timedelta(hours=+5))))
 
 
 class StatementModel(Base):
