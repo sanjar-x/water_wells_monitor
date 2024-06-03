@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, timezone
 
 from sqlalchemy import Column, Boolean, String, DateTime
 from sqlalchemy.orm import DeclarativeBase
+from sqlalchemy.sql import func
 
 
 class Base(DeclarativeBase):
@@ -64,7 +65,7 @@ class MessageModel(Base):
     salinity = Column(String, nullable=True)
     water_level = Column(String, nullable=True)
     number = Column(String, nullable=True)
-    received_at = Column(DateTime, default=datetime.now(timezone(timedelta(hours=+5))))
+    received_at = Column(DateTime, default=func.now())
 
 
 class StatementModel(Base):
