@@ -8,7 +8,7 @@ async def update_well_status():
     tz = timezone(timedelta(hours=5))
     async with get_session() as session:
         result = await session.execute(select(WellsModel))
-        wells = list(result.scalars().all())
+        wells = result.scalars().all()
 
         for well in wells:
             last_message_query = (

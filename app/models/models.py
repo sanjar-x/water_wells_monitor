@@ -51,7 +51,7 @@ class WellsModel(Base):
     latitude = Column(String, nullable=True)
     longitude = Column(String, nullable=True)
     status = Column(Boolean, default=True)
-    received_at = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
+    time = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 
 
 class MessageModel(Base):
