@@ -31,7 +31,6 @@ from app.routers.endpoints.message.delete_messages import (
 )
 
 from app.routers.endpoints.settings import settings_router
-from app.services.init import init
 
 HTTP_PORT = 8000
 
