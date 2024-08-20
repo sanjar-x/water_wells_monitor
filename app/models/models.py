@@ -5,6 +5,8 @@ from sqlalchemy import Column, Boolean, String, DateTime
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.sql import func
 
+tz = timezone(timedelta(hours=5))
+
 
 class Base(DeclarativeBase):
     pass
@@ -49,7 +51,7 @@ class WellsModel(Base):
     latitude = Column(String, nullable=True)
     longitude = Column(String, nullable=True)
     status = Column(Boolean, default=True)
-    created_time = Column("time", DateTime, default=datetime.now(timezone.utc))
+    received_at = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 
 
 class MessageModel(Base):
@@ -65,7 +67,7 @@ class MessageModel(Base):
     salinity = Column(String, nullable=True)
     water_level = Column(String, nullable=True)
     number = Column(String, nullable=True)
-    received_at = Column(DateTime, default=func.now())
+    received_at = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 
 
 class StatementModel(Base):
@@ -80,4 +82,4 @@ class StatementModel(Base):
     )
     statement = Column(String, nullable=True)
     number = Column(String, nullable=True)
-    time = Column("time", DateTime, default=datetime.now(timezone.utc))
+    time = Column("time", DateTime, default=datetime.now(tz))

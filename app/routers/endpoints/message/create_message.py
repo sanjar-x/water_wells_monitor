@@ -11,7 +11,7 @@ async def create_message_(message_data: Message):
     message_data.temperature = message_data.temperature[2:-1]
     message_data.salinity = message_data.salinity[2:-1]
     message_data.water_level = message_data.water_level[2:-1]
-
+    message_data.number = message_data.number[:-1]
     await create_message(message_data)
     return JSONResponse(
         content={"message": "Message received"},

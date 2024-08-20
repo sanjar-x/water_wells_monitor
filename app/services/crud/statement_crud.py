@@ -25,7 +25,7 @@ async def get_statements() -> List[StatementModel]:
         async with get_session() as session:
             result = await session.execute(select(StatementModel))  # type: ignore
             statements = result.scalars().all()
-            return statements
+            return list(statements)
     except SQLAlchemyError as e:
         raise HTTPException(status_code=500, detail=f"Error retrieving statements: {e}")
 

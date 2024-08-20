@@ -1,0 +1,2818 @@
+[
+    {
+        "water_level": "38.15",
+        "message_id": "f07ba1c9-95af-4f6f-bf79-34922e3a6426",
+        "received_at": "2024-08-13T08:36:22",
+        "temperature": "20.16",
+        "salinity": "2854.87",
+        "number": "998916691972"
+    },
+    {
+        "water_level": "36.18",
+        "message_id": "9f9dda92-bf55-4ebb-b096-be02f312ef4f",
+        "received_at": "2024-08-13T08:39:24",
+        "temperature": "20.36",
+        "salinity": "3419.74",
+        "number": "998916557705"
+    },
+    {
+        "water_level": "36.18",
+        "message_id": "7f66d55d-956f-4acf-a741-585170ed9c44",
+        "received_at": "2024-08-13T08:40:58",
+        "temperature": "20.36",
+        "salinity": "3419.74",
+        "number": "998916557705"
+    },
+    {
+        "water_level": "61.94",
+        "message_id": "da8caf49-af09-4985-a32d-2ef2b66a6b2b",
+        "received_at": "2024-08-13T09:01:20",
+        "temperature": "26.34",
+        "salinity": "4854.33",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "60.00",
+        "message_id": "5917f791-6dba-4101-9ac9-964061694988",
+        "received_at": "2024-08-13T09:06:51",
+        "temperature": "26.14",
+        "salinity": "4835.32",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "36.18",
+        "message_id": "cd79c044-da65-4996-85f5-272c8af4e8cd",
+        "received_at": "2024-08-13T09:12:08",
+        "temperature": "20.36",
+        "salinity": "3419.74",
+        "number": "998916557705"
+    },
+    {
+        "water_level": "60.41",
+        "message_id": "73242eff-1245-40ce-a9aa-cb5b4dc688d2",
+        "received_at": "2024-08-13T11:26:43",
+        "temperature": "26.65",
+        "salinity": "4675.22",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "60.52",
+        "message_id": "46a3c61d-d498-4741-91c0-46cc9bcabcaa",
+        "received_at": "2024-08-13T12:30:04",
+        "temperature": "27.26",
+        "salinity": "4614.14",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "36.18",
+        "message_id": "fd0e0809-0dc3-4e88-9e64-e948ea2a6c0d",
+        "received_at": "2024-08-13T15:15:43",
+        "temperature": "20.36",
+        "salinity": "3419.74",
+        "number": "998916557705"
+    },
+    {
+        "water_level": "",
+        "message_id": "33297f0a-9619-4c97-a5f5-cef3339d221a",
+        "received_at": "2024-08-13T15:36:00",
+        "temperature": "",
+        "salinity": "27211.80",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "29.09",
+        "message_id": "23cf36e4-693c-4ae4-8638-2621a0780c71",
+        "received_at": "2024-08-13T16:02:41",
+        "temperature": "21.94",
+        "salinity": "16368.00",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "",
+        "message_id": "89353a4e-c561-4dc6-b05c-a6798a136b6b",
+        "received_at": "2024-08-13T16:22:01",
+        "temperature": "",
+        "salinity": "221048.09",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "36.72",
+        "message_id": "2bc8f277-082b-422d-9e39-ed5fe89b1f63",
+        "received_at": "2024-08-13T16:41:59",
+        "temperature": "19.86",
+        "salinity": "6087.87",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "60.88",
+        "message_id": "391b840a-f7e5-414f-934f-8f78827d4149",
+        "received_at": "2024-08-13T17:19:22",
+        "temperature": "28.90",
+        "salinity": "4496.33",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "24.72",
+        "message_id": "1dbd3d04-5a3b-4fca-b73f-3b2952538927",
+        "received_at": "2024-08-13T20:47:04",
+        "temperature": "19.27",
+        "salinity": "35191.27",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "36.62",
+        "message_id": "4f28548f-6343-460e-831b-85bc595e3e38",
+        "received_at": "2024-08-13T21:27:31",
+        "temperature": "19.17",
+        "salinity": "4801.74",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "61.81",
+        "message_id": "1755942a-f5e2-4cc9-952e-a535781dbbdf",
+        "received_at": "2024-08-13T22:08:43",
+        "temperature": "29.00",
+        "salinity": "4474.48",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "25.06",
+        "message_id": "35adbfa9-597f-4077-aecc-ea663bb6d06f",
+        "received_at": "2024-08-14T01:30:34",
+        "temperature": "19.17",
+        "salinity": "68336.73",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "37.25",
+        "message_id": "d6397bd7-8f21-473e-b352-247d143ce5dc",
+        "received_at": "2024-08-14T02:12:07",
+        "temperature": "19.27",
+        "salinity": "4718.02",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "61.32",
+        "message_id": "5479edf3-7074-405a-b846-0aa318882bfc",
+        "received_at": "2024-08-14T02:58:16",
+        "temperature": "28.28",
+        "salinity": "4526.28",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "25.91",
+        "message_id": "6a294f5d-1bc2-4be3-988b-7c148860eb09",
+        "received_at": "2024-08-14T06:13:30",
+        "temperature": "19.17",
+        "salinity": "149562.23",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "37.93",
+        "message_id": "2db2390d-9d5b-4b35-8610-bc25491e31be",
+        "received_at": "2024-08-14T06:56:07",
+        "temperature": "19.37",
+        "salinity": "4661.53",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "61.13",
+        "message_id": "a04123fe-2511-4f9e-9696-02a920f9f70f",
+        "received_at": "2024-08-14T07:47:53",
+        "temperature": "27.05",
+        "salinity": "4598.36",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "25.91",
+        "message_id": "18c0580a-4601-4b7b-8419-f2dbde950437",
+        "received_at": "2024-08-14T10:56:23",
+        "temperature": "19.07",
+        "salinity": "70587.34",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "38.08",
+        "message_id": "8446411e-7152-4932-af8b-61c500c830f0",
+        "received_at": "2024-08-14T11:40:07",
+        "temperature": "19.07",
+        "salinity": "4378.35",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "60.92",
+        "message_id": "769a43b2-19b5-4cad-b540-3ad37ae8bbbd",
+        "received_at": "2024-08-14T12:37:19",
+        "temperature": "28.59",
+        "salinity": "4510.60",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "36.18",
+        "message_id": "bef710c9-372d-470c-88ce-db89ee754ce6",
+        "received_at": "2024-08-14T15:28:05",
+        "temperature": "20.36",
+        "salinity": "3419.74",
+        "number": "998916557705"
+    },
+    {
+        "water_level": "25.70",
+        "message_id": "b2f783c8-6306-4960-a73d-d8ea04ab4ba1",
+        "received_at": "2024-08-14T15:39:51",
+        "temperature": "18.97",
+        "salinity": "31099.23",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "38.00",
+        "message_id": "7770dad8-1fcc-4817-8b4c-fdeef400a75a",
+        "received_at": "2024-08-14T16:24:48",
+        "temperature": "19.17",
+        "salinity": "4035.93",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "",
+        "message_id": "77cea3f8-ead6-4e1a-bb25-f9be40b0a049",
+        "received_at": "2024-08-14T17:10:29",
+        "temperature": "",
+        "salinity": "0.00",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "22e4062a-9111-4595-afba-eb9268b5480b",
+        "received_at": "2024-08-14T17:22:32",
+        "temperature": "",
+        "salinity": "195477.33",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "e9849da1-476b-434e-bfc2-fb1c4c306fa6",
+        "received_at": "2024-08-14T17:32:01",
+        "temperature": "",
+        "salinity": "217225.45",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "1355bd3d-a2c2-455e-b251-3c13851c9f40",
+        "received_at": "2024-08-14T17:39:03",
+        "temperature": "",
+        "salinity": "149676.25",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "186ea717-926d-48c6-a8d4-96d62e245d28",
+        "received_at": "2024-08-14T17:55:49",
+        "temperature": "",
+        "salinity": "212635.81",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "00bcd9cb-6108-4cec-a879-8f32d2b98b0d",
+        "received_at": "2024-08-14T18:03:31",
+        "temperature": "",
+        "salinity": "135137.70",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "c5ce80fc-e5ca-4e55-a190-4e9d4556c567",
+        "received_at": "2024-08-14T18:11:19",
+        "temperature": "",
+        "salinity": "99201.13",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "667920ee-7e78-40af-9949-d202656e8e76",
+        "received_at": "2024-08-14T18:19:08",
+        "temperature": "",
+        "salinity": "146059.66",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "408752cc-098b-437d-8934-25c8dfd6ce2a",
+        "received_at": "2024-08-14T18:27:00",
+        "temperature": "",
+        "salinity": "228743.14",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "facd49ae-9ddc-4d9b-a3f8-ea910bf14b81",
+        "received_at": "2024-08-14T18:35:06",
+        "temperature": "",
+        "salinity": "115448.34",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "30387291-5e36-4646-875f-a2f8eb6dca06",
+        "received_at": "2024-08-14T18:42:57",
+        "temperature": "",
+        "salinity": "113005.20",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "61.06",
+        "message_id": "040ecfff-2dac-466a-bb4d-f03ebee9b861",
+        "received_at": "2024-08-14T19:20:41",
+        "temperature": "30.04",
+        "salinity": "4347.82",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "26.04",
+        "message_id": "a627f6bf-1eab-4bba-b3ce-e4cf54524b58",
+        "received_at": "2024-08-14T20:23:19",
+        "temperature": "18.97",
+        "salinity": "36828.08",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "40.60",
+        "message_id": "88afc5b5-2930-4c99-bc4e-7c407e25e648",
+        "received_at": "2024-08-14T21:09:39",
+        "temperature": "19.07",
+        "salinity": "3863.39",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "62.22",
+        "message_id": "06b76c25-4af5-4b6c-b3f2-8d0aea8a8b34",
+        "received_at": "2024-08-15T00:10:06",
+        "temperature": "29.83",
+        "salinity": "4391.30",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "27.32",
+        "message_id": "d437c8c9-e2e8-4dbb-a407-6b2818d95ef9",
+        "received_at": "2024-08-15T01:06:14",
+        "temperature": "19.07",
+        "salinity": "93707.32",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "56.48",
+        "message_id": "5c4655d9-485f-4938-bff6-c8f3092620e8",
+        "received_at": "2024-08-15T01:53:50",
+        "temperature": "19.27",
+        "salinity": "3477.36",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "62.55",
+        "message_id": "aa608f0c-7da9-4ec8-b611-67c2301adc40",
+        "received_at": "2024-08-15T04:59:41",
+        "temperature": "28.49",
+        "salinity": "4484.83",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "28.93",
+        "message_id": "61e6752e-5c31-48ed-a761-b8b6634cbb7c",
+        "received_at": "2024-08-15T05:48:43",
+        "temperature": "19.17",
+        "salinity": "324491.13",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "88.95",
+        "message_id": "7200d6fa-74cc-4ffd-8235-8eb7f0ee4ea0",
+        "received_at": "2024-08-15T06:37:31",
+        "temperature": "19.57",
+        "salinity": "3425.17",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "52.17",
+        "message_id": "27a7b393-8175-4df2-a354-2842e058738d",
+        "received_at": "2024-08-15T09:30:33",
+        "temperature": "19.96",
+        "salinity": "2132.95",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "60.85",
+        "message_id": "2883b0ba-3dce-4939-814a-71408ca0141a",
+        "received_at": "2024-08-15T09:49:18",
+        "temperature": "27.56",
+        "salinity": "4531.07",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "29.51",
+        "message_id": "e7503f47-263c-4e4e-8205-551638c00efd",
+        "received_at": "2024-08-15T10:31:06",
+        "temperature": "19.07",
+        "salinity": "76725.39",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "14.21",
+        "message_id": "a5f1dba9-867e-490d-bf11-5cb26b2f7cf8",
+        "received_at": "2024-08-15T10:48:36",
+        "temperature": "18.38",
+        "salinity": "285439.06",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "13.95",
+        "message_id": "f2916e8b-d797-4e49-add3-d93778a1d318",
+        "received_at": "2024-08-15T10:56:38",
+        "temperature": "18.38",
+        "salinity": "276970.50",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "",
+        "message_id": "20d62268-1ed6-4b9b-87f3-619501a055de",
+        "received_at": "2024-08-15T11:08:59",
+        "temperature": "",
+        "salinity": "148641.64",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "91.83",
+        "message_id": "48d38be1-b46e-48d8-8f62-10f45fdfeae5",
+        "received_at": "2024-08-15T11:21:10",
+        "temperature": "19.47",
+        "salinity": "3212.35",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "12.80",
+        "message_id": "a6f6397b-9138-4fb1-9799-7d28b536070d",
+        "received_at": "2024-08-15T11:21:50",
+        "temperature": "28.28",
+        "salinity": "441580.25",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "14.51",
+        "message_id": "a1b8eb44-4b82-43e7-84b5-730d0dad7bd0",
+        "received_at": "2024-08-15T11:55:22",
+        "temperature": "25.54",
+        "salinity": "191380.75",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "14.60",
+        "message_id": "90ee06c1-05f8-4137-b933-10619aa3b02e",
+        "received_at": "2024-08-15T12:02:59",
+        "temperature": "23.43",
+        "salinity": "194650.97",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "",
+        "message_id": "8fcad068-6844-419b-ae64-47519657f146",
+        "received_at": "2024-08-15T12:27:07",
+        "temperature": "",
+        "salinity": "179502.45",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "50.08",
+        "message_id": "5d7d3ade-7735-4496-99df-140178292bc1",
+        "received_at": "2024-08-15T14:32:24",
+        "temperature": "19.96",
+        "salinity": "2091.54",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "60.82",
+        "message_id": "2279fcf4-2c56-4354-b85c-d38afde1afd7",
+        "received_at": "2024-08-15T14:38:37",
+        "temperature": "29.52",
+        "salinity": "4416.00",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "fca8247c-839f-4084-ad8f-fe1c6e83c9de",
+        "received_at": "2024-08-15T14:40:21",
+        "temperature": "",
+        "salinity": "313488.88",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "28.43",
+        "message_id": "16f2547a-cc75-42bf-987d-ac5f68aab241",
+        "received_at": "2024-08-15T15:14:00",
+        "temperature": "18.97",
+        "salinity": "52173.20",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "13.81",
+        "message_id": "e9a3b590-b7a0-49b4-8f2c-8f9d4decb787",
+        "received_at": "2024-08-15T15:42:08",
+        "temperature": "18.28",
+        "salinity": "348083.19",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "12.67",
+        "message_id": "fbddb453-9f12-415d-8248-1a7fd8b2ac3b",
+        "received_at": "2024-08-15T16:05:23",
+        "temperature": "16.81",
+        "salinity": "229097.17",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "14.58",
+        "message_id": "7aff7cd0-79fe-465c-85d4-9a0f12b2e32a",
+        "received_at": "2024-08-15T16:48:38",
+        "temperature": "21.44",
+        "salinity": "130564.91",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "",
+        "message_id": "3f5afaa5-3d9c-45db-89ef-abe0fa7b0216",
+        "received_at": "2024-08-15T16:58:24",
+        "temperature": "",
+        "salinity": "136460.80",
+        "number": "998916691972"
+    },
+    {
+        "water_level": "63.95",
+        "message_id": "c7e828d8-f40a-4fc4-a2bd-ac884f6a924d",
+        "received_at": "2024-08-15T19:24:10",
+        "temperature": "19.37",
+        "salinity": "3659.14",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "61.30",
+        "message_id": "c7f0f1c5-a3e2-4e10-9c72-5d07f4a085b0",
+        "received_at": "2024-08-15T19:27:58",
+        "temperature": "30.25",
+        "salinity": "4339.01",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "28.12",
+        "message_id": "c5169888-e6af-42e9-9089-3d437990acfa",
+        "received_at": "2024-08-15T19:57:21",
+        "temperature": "19.07",
+        "salinity": "53605.41",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "13.98",
+        "message_id": "15060d7c-91c2-4505-b820-99ec0ad33ede",
+        "received_at": "2024-08-15T20:27:51",
+        "temperature": "18.48",
+        "salinity": "175539.80",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "12.90",
+        "message_id": "9bf29124-e79f-486f-b112-7236e1c75e42",
+        "received_at": "2024-08-15T20:49:06",
+        "temperature": "16.81",
+        "salinity": "268397.41",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "104.17",
+        "message_id": "fad90003-6748-47b8-859e-de633914f1f0",
+        "received_at": "2024-08-15T20:49:57",
+        "temperature": "19.96",
+        "salinity": "3510.94",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "12.33",
+        "message_id": "497a19b6-ac03-49c3-ba28-a9908591f5c3",
+        "received_at": "2024-08-15T21:34:05",
+        "temperature": "21.05",
+        "salinity": "167039.91",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "64.99",
+        "message_id": "20cb0364-911f-4304-88f1-d8a778a1beaa",
+        "received_at": "2024-08-16T00:07:35",
+        "temperature": "19.37",
+        "salinity": "2855.71",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "50.86",
+        "message_id": "774a8fb8-f57b-43cf-9ecb-8b42b187dc61",
+        "received_at": "2024-08-16T00:09:49",
+        "temperature": "20.06",
+        "salinity": "2080.11",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "61.73",
+        "message_id": "1b9c7c1a-8171-4188-b342-f9ad6a031576",
+        "received_at": "2024-08-16T00:17:23",
+        "temperature": "30.14",
+        "salinity": "4351.57",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "29.04",
+        "message_id": "5c64bdbf-7cef-43e9-a94b-887bb27f5294",
+        "received_at": "2024-08-16T00:40:01",
+        "temperature": "19.07",
+        "salinity": "98617.76",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "14.43",
+        "message_id": "82ca0c35-7036-4e7c-ad5e-da68e4daece9",
+        "received_at": "2024-08-16T01:12:56",
+        "temperature": "18.48",
+        "salinity": "228183.50",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "99.30",
+        "message_id": "7a98d07f-4806-44b2-9eeb-2333dec6a030",
+        "received_at": "2024-08-16T01:33:55",
+        "temperature": "20.16",
+        "salinity": "3364.57",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "12.73",
+        "message_id": "93e33e34-d715-440f-96cc-3c8712e9e8e5",
+        "received_at": "2024-08-16T02:18:19",
+        "temperature": "19.86",
+        "salinity": "341635.09",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "65.71",
+        "message_id": "f0a723cd-b9c7-434b-8b52-eb107957135a",
+        "received_at": "2024-08-16T04:50:13",
+        "temperature": "19.27",
+        "salinity": "2786.14",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "52.04",
+        "message_id": "b7ce4258-914c-4275-9b71-95dd25b70d00",
+        "received_at": "2024-08-16T04:59:19",
+        "temperature": "20.16",
+        "salinity": "2073.61",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "62.79",
+        "message_id": "162e1071-cbe3-49b9-b394-c72acadba05d",
+        "received_at": "2024-08-16T05:06:55",
+        "temperature": "28.69",
+        "salinity": "4438.09",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "30.47",
+        "message_id": "579ae226-d044-4edb-ad9c-abd7c2642bd4",
+        "received_at": "2024-08-16T05:22:21",
+        "temperature": "19.17",
+        "salinity": "184343.42",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "14.71",
+        "message_id": "726f176c-dc45-4f2a-927b-eae0ddcd7a39",
+        "received_at": "2024-08-16T05:57:37",
+        "temperature": "18.58",
+        "salinity": "357307.28",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "13.41",
+        "message_id": "3feac9ee-40ff-4fe3-8cca-281b8ef3ddc6",
+        "received_at": "2024-08-16T06:15:05",
+        "temperature": "16.81",
+        "salinity": "272463.22",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "81.26",
+        "message_id": "b142769c-db1d-481c-85b3-cf6830d91b63",
+        "received_at": "2024-08-16T06:17:27",
+        "temperature": "20.16",
+        "salinity": "3287.10",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "12.63",
+        "message_id": "8312d92a-07f7-4d7b-a78b-c73509c555a5",
+        "received_at": "2024-08-16T07:02:35",
+        "temperature": "20.26",
+        "salinity": "281939.63",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "52.16",
+        "message_id": "046f93d2-3436-47aa-b05a-d9ca0b893586",
+        "received_at": "2024-08-16T09:49:13",
+        "temperature": "20.16",
+        "salinity": "2074.75",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "61.18",
+        "message_id": "eb3adceb-d123-4927-bdf4-5788ca0831aa",
+        "received_at": "2024-08-16T09:56:26",
+        "temperature": "28.28",
+        "salinity": "4478.08",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "31.12",
+        "message_id": "e10e07af-69d9-426e-895c-e3d2405e3b97",
+        "received_at": "2024-08-16T10:04:38",
+        "temperature": "19.07",
+        "salinity": "168385.00",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "14.27",
+        "message_id": "eb651f40-9131-486f-9ea7-d2b032e1760d",
+        "received_at": "2024-08-16T10:42:17",
+        "temperature": "18.38",
+        "salinity": "238788.05",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "13.21",
+        "message_id": "4e37ee7a-b9db-4d11-adce-95e0e2ed3440",
+        "received_at": "2024-08-16T10:57:19",
+        "temperature": "16.81",
+        "salinity": "223720.09",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "92.98",
+        "message_id": "c1e91f95-8d85-43d3-aa5f-9d054c841ca2",
+        "received_at": "2024-08-16T11:00:46",
+        "temperature": "20.26",
+        "salinity": "3255.39",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "14.73",
+        "message_id": "6bf0393f-57be-47d9-a647-dbed6138156e",
+        "received_at": "2024-08-16T12:00:55",
+        "temperature": "21.84",
+        "salinity": "287128.91",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "65.02",
+        "message_id": "e1d74c75-096c-46cb-813b-0fa4f404b439",
+        "received_at": "2024-08-16T14:15:08",
+        "temperature": "19.27",
+        "salinity": "2735.93",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "51.16",
+        "message_id": "0a6c7694-9ca0-461a-880b-f79bb53e3b2d",
+        "received_at": "2024-08-16T14:38:47",
+        "temperature": "20.16",
+        "salinity": "2056.22",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "61.09",
+        "message_id": "ebd1fd47-6da2-490f-808a-cba644e366a3",
+        "received_at": "2024-08-16T14:45:47",
+        "temperature": "29.00",
+        "salinity": "4426.44",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "31.14",
+        "message_id": "9ee5725a-27e7-4f31-bdb3-a5b9e9050d87",
+        "received_at": "2024-08-16T14:46:54",
+        "temperature": "19.07",
+        "salinity": "95344.13",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "13.85",
+        "message_id": "cf07c103-1d48-40a1-a3f2-aaf48c164dad",
+        "received_at": "2024-08-16T15:27:12",
+        "temperature": "18.38",
+        "salinity": "253855.88",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "114.01",
+        "message_id": "4ee05d15-819e-4965-ae18-6f672c5484aa",
+        "received_at": "2024-08-16T15:44:30",
+        "temperature": "20.36",
+        "salinity": "3262.81",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "61.31",
+        "message_id": "677d64e4-08ff-47e2-8e13-1e8dedf21d58",
+        "received_at": "2024-08-16T16:25:22",
+        "temperature": "17.89",
+        "salinity": "663.49",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "14.45",
+        "message_id": "c3724a3e-9087-493f-a98c-b796f55d0781",
+        "received_at": "2024-08-16T16:31:44",
+        "temperature": "21.35",
+        "salinity": "248003.30",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "",
+        "message_id": "bd093213-024a-43c3-b264-d07285d5669a",
+        "received_at": "2024-08-16T16:45:06",
+        "temperature": "",
+        "salinity": "143275.48",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "",
+        "message_id": "c7e26b81-59d5-4cd2-bd30-295a564c6da9",
+        "received_at": "2024-08-16T16:54:43",
+        "temperature": "",
+        "salinity": "167203.69",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "59.48",
+        "message_id": "69f40615-6192-4c21-8d14-5fdbaf51faed",
+        "received_at": "2024-08-16T17:38:47",
+        "temperature": "17.30",
+        "salinity": "5004.24",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "59.76",
+        "message_id": "81f4b35e-d0c1-4d44-a54b-7ead7ae32df9",
+        "received_at": "2024-08-16T17:48:35",
+        "temperature": "17.20",
+        "salinity": "5335.23",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "65.01",
+        "message_id": "ed0c401c-c381-40ec-a9cd-2ad77adf3422",
+        "received_at": "2024-08-16T18:57:55",
+        "temperature": "19.17",
+        "salinity": "2736.41",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "62.48",
+        "message_id": "13348000-a0b0-4b71-9c68-eb814faa58b2",
+        "received_at": "2024-08-16T19:24:32",
+        "temperature": "29.31",
+        "salinity": "4392.55",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "31.02",
+        "message_id": "363ec551-c5d2-4f57-8162-66288f8694b9",
+        "received_at": "2024-08-16T19:29:38",
+        "temperature": "19.07",
+        "salinity": "91661.30",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "14.07",
+        "message_id": "fcea7e12-702c-4c60-b477-0dccda15e1de",
+        "received_at": "2024-08-16T20:12:23",
+        "temperature": "18.38",
+        "salinity": "328913.91",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "111.26",
+        "message_id": "b4120d07-5bf1-4163-a1fe-6d1a7d6d68f9",
+        "received_at": "2024-08-16T20:28:25",
+        "temperature": "20.36",
+        "salinity": "3345.07",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "12.50",
+        "message_id": "20c60bdc-a55e-4558-bd9e-5738416c4399",
+        "received_at": "2024-08-16T21:15:46",
+        "temperature": "20.95",
+        "salinity": "307623.56",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "61.21",
+        "message_id": "b6852cff-184a-4fd4-8dbe-5e8160986e5f",
+        "received_at": "2024-08-16T21:55:28",
+        "temperature": "18.19",
+        "salinity": "698.63",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "31.42",
+        "message_id": "09293b40-ce3b-4223-9642-b4c1e60930dc",
+        "received_at": "2024-08-17T00:11:57",
+        "temperature": "19.07",
+        "salinity": "204802.94",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "62.25",
+        "message_id": "3deeee76-75a9-417c-b821-b78c8a3566af",
+        "received_at": "2024-08-17T00:14:01",
+        "temperature": "28.49",
+        "salinity": "4445.31",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "14.58",
+        "message_id": "db79290b-c1eb-4699-a22f-95ab57d1d852",
+        "received_at": "2024-08-17T00:57:08",
+        "temperature": "18.48",
+        "salinity": "357171.31",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "13.35",
+        "message_id": "b95528ea-bc90-4f2c-a614-118c2820d0f8",
+        "received_at": "2024-08-17T01:05:34",
+        "temperature": "16.81",
+        "salinity": "290338.59",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "113.99",
+        "message_id": "3fcd1f21-3127-47f0-9b7f-3e00b10e8764",
+        "received_at": "2024-08-17T01:11:55",
+        "temperature": "20.55",
+        "salinity": "3419.89",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "12.85",
+        "message_id": "2e3d4404-df3c-4d79-be20-572c6b315940",
+        "received_at": "2024-08-17T01:59:46",
+        "temperature": "20.75",
+        "salinity": "331886.09",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "61.17",
+        "message_id": "436b34c7-89f9-48c9-823d-dd72f87ba174",
+        "received_at": "2024-08-17T02:45:01",
+        "temperature": "17.99",
+        "salinity": "703.61",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "58.82",
+        "message_id": "ae1a82cb-528e-4049-aced-31a921eb0494",
+        "received_at": "2024-08-17T03:28:30",
+        "temperature": "17.40",
+        "salinity": "4806.48",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "31.82",
+        "message_id": "7744695e-ef62-45e3-a4a7-e791f2b3a65c",
+        "received_at": "2024-08-17T04:53:52",
+        "temperature": "19.27",
+        "salinity": "216260.28",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "61.68",
+        "message_id": "f1babc92-7620-4a2c-9f33-d6e8d602d9aa",
+        "received_at": "2024-08-17T05:03:38",
+        "temperature": "27.16",
+        "salinity": "4556.56",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "14.83",
+        "message_id": "cbe99958-ccdd-4953-aa9c-d96202a0b0cb",
+        "received_at": "2024-08-17T05:41:30",
+        "temperature": "18.48",
+        "salinity": "115312.78",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "101.70",
+        "message_id": "8f2aec18-67e2-4551-8788-4b756ac83c32",
+        "received_at": "2024-08-17T05:55:03",
+        "temperature": "20.55",
+        "salinity": "3448.80",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "12.96",
+        "message_id": "8fc468da-ebb3-41d7-a83f-3f6636bb3493",
+        "received_at": "2024-08-17T06:43:31",
+        "temperature": "20.26",
+        "salinity": "271119.78",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "61.72",
+        "message_id": "fd0bbc65-2e35-4154-a97f-aaa3961fff1d",
+        "received_at": "2024-08-17T07:34:46",
+        "temperature": "18.19",
+        "salinity": "702.42",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "65.89",
+        "message_id": "685bd0b0-5049-4bf3-9912-9d76bbffb20a",
+        "received_at": "2024-08-17T09:04:09",
+        "temperature": "19.27",
+        "salinity": "2717.50",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "31.35",
+        "message_id": "a548b392-b5bd-4014-bf02-af335619d1ae",
+        "received_at": "2024-08-17T09:35:34",
+        "temperature": "19.17",
+        "salinity": "192834.02",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "61.36",
+        "message_id": "4d9eb5b4-7114-4bff-989c-a6f601e4ba61",
+        "received_at": "2024-08-17T09:53:15",
+        "temperature": "26.75",
+        "salinity": "4588.57",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "50.87",
+        "message_id": "e16baf47-d58e-4163-85c3-d36ca825185d",
+        "received_at": "2024-08-17T09:56:38",
+        "temperature": "20.26",
+        "salinity": "2044.70",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "14.37",
+        "message_id": "f3f48d3d-3452-4ba9-972a-772589b55de5",
+        "received_at": "2024-08-17T10:25:49",
+        "temperature": "18.58",
+        "salinity": "259420.22",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "127.28",
+        "message_id": "a3840e56-ee7f-4a22-89fd-1dbaf563f141",
+        "received_at": "2024-08-17T10:38:05",
+        "temperature": "20.36",
+        "salinity": "3460.71",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "77.64",
+        "message_id": "8609d884-2ad2-4170-920d-f28801ec5373",
+        "received_at": "2024-08-17T11:28:03",
+        "temperature": "19.96",
+        "salinity": "10266.26",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "53.75",
+        "message_id": "2705eb35-7c87-4ef5-b1da-54e9739eb8c6",
+        "received_at": "2024-08-17T11:57:29",
+        "temperature": "18.88",
+        "salinity": "10637.94",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "",
+        "message_id": "723787b8-d900-4bba-8b17-94421ef342b1",
+        "received_at": "2024-08-17T12:21:26",
+        "temperature": "",
+        "salinity": "176819.81",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "61.41",
+        "message_id": "83262212-6475-495b-bb89-4f76fc3f8d9c",
+        "received_at": "2024-08-17T12:24:19",
+        "temperature": "18.09",
+        "salinity": "698.90",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "",
+        "message_id": "d9872f3a-5db8-46da-8f7b-807e971901c8",
+        "received_at": "2024-08-17T12:52:44",
+        "temperature": "",
+        "salinity": "212941.59",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "56.12",
+        "message_id": "8e96b15b-d919-49b9-9655-d89a21653b8f",
+        "received_at": "2024-08-17T13:08:35",
+        "temperature": "17.30",
+        "salinity": "4778.52",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "",
+        "message_id": "55e6568a-af47-4439-abfb-dcd362dc80ec",
+        "received_at": "2024-08-17T13:29:28",
+        "temperature": "",
+        "salinity": "78476.05",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "64.97",
+        "message_id": "3fc745cf-d0e5-4f19-92ae-92e56c8329e9",
+        "received_at": "2024-08-17T13:46:14",
+        "temperature": "19.27",
+        "salinity": "2718.61",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "30.45",
+        "message_id": "569c7ca2-8682-4688-8d41-e1577a1fd160",
+        "received_at": "2024-08-17T14:17:44",
+        "temperature": "19.07",
+        "salinity": "144038.17",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "61.45",
+        "message_id": "e65074f6-4dd7-4eb8-8bb3-0bed52e76868",
+        "received_at": "2024-08-17T14:42:42",
+        "temperature": "27.77",
+        "salinity": "4482.20",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "49.28",
+        "message_id": "98153ba1-838c-4934-853c-adb6f9fa8fea",
+        "received_at": "2024-08-17T14:45:58",
+        "temperature": "20.06",
+        "salinity": "2050.72",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "13.85",
+        "message_id": "87c1225a-5080-404e-8330-cd3d634ab4c2",
+        "received_at": "2024-08-17T15:10:32",
+        "temperature": "18.38",
+        "salinity": "246766.88",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "12.92",
+        "message_id": "09cc2d6e-cf5a-40f4-81db-8f320b24cefd",
+        "received_at": "2024-08-17T15:12:45",
+        "temperature": "16.81",
+        "salinity": "224973.98",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "51.10",
+        "message_id": "242b7604-d266-4de0-8edb-4fa8afb13846",
+        "received_at": "2024-08-17T16:41:46",
+        "temperature": "18.58",
+        "salinity": "12586.21",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "19.55",
+        "message_id": "2b5375c7-f900-4445-9a19-ce5153e9341d",
+        "received_at": "2024-08-17T17:05:12",
+        "temperature": "20.85",
+        "salinity": "262862.16",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "60.03",
+        "message_id": "0b9c0ab9-a8e4-4cb5-94d8-36b98db974f5",
+        "received_at": "2024-08-17T17:14:08",
+        "temperature": "17.99",
+        "salinity": "691.65",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "93.94",
+        "message_id": "fa266461-8b2e-4d8e-92dc-52b25235f5d6",
+        "received_at": "2024-08-17T17:37:56",
+        "temperature": "19.17",
+        "salinity": "2146.86",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "56.24",
+        "message_id": "39db8b88-77ef-4097-a778-c884b798957f",
+        "received_at": "2024-08-17T17:58:31",
+        "temperature": "17.20",
+        "salinity": "4754.81",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "64.66",
+        "message_id": "8e323abc-fda0-4f0c-b5ed-1fb327a1190d",
+        "received_at": "2024-08-17T18:28:52",
+        "temperature": "19.17",
+        "salinity": "2713.71",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "30.19",
+        "message_id": "6fd327fc-b6ff-4e5c-8bd0-84718c2c8086",
+        "received_at": "2024-08-17T19:00:21",
+        "temperature": "19.07",
+        "salinity": "124601.63",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "61.86",
+        "message_id": "f5d34dfc-d093-47d8-8a81-004e8cef3e06",
+        "received_at": "2024-08-17T19:32:06",
+        "temperature": "28.90",
+        "salinity": "4415.27",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "12.91",
+        "message_id": "487d47fa-96b8-407a-9f0d-bbe8489318d1",
+        "received_at": "2024-08-17T19:55:22",
+        "temperature": "16.81",
+        "salinity": "318127.41",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "14.02",
+        "message_id": "b92405f4-5a03-4c48-a632-8919a724f896",
+        "received_at": "2024-08-17T19:55:33",
+        "temperature": "18.48",
+        "salinity": "325705.00",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "146.20",
+        "message_id": "3de2d32a-4314-4a00-b49e-9d0271cf5239",
+        "received_at": "2024-08-17T20:05:29",
+        "temperature": "20.46",
+        "salinity": "3648.70",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "14.86",
+        "message_id": "feaec639-754e-4908-8a58-5cdf51feeafc",
+        "received_at": "2024-08-17T20:55:27",
+        "temperature": "21.05",
+        "salinity": "257625.02",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "70.79",
+        "message_id": "570bbf7f-9048-49e3-b731-1b22c50d260d",
+        "received_at": "2024-08-17T20:56:00",
+        "temperature": "19.86",
+        "salinity": "9922.69",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "51.53",
+        "message_id": "7ee14369-fe54-44ee-ab6b-49df403ac125",
+        "received_at": "2024-08-17T21:25:47",
+        "temperature": "18.68",
+        "salinity": "10605.72",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "21.64",
+        "message_id": "13f0d4d6-07bc-437c-8b33-0006f1792d88",
+        "received_at": "2024-08-17T21:48:31",
+        "temperature": "20.85",
+        "salinity": "263578.13",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "58.75",
+        "message_id": "a61d4302-2005-4cae-819d-7462b5662620",
+        "received_at": "2024-08-17T22:03:27",
+        "temperature": "17.99",
+        "salinity": "687.25",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "94.96",
+        "message_id": "ce7cfa3a-5ce8-4c63-b6c5-0a5db24016d6",
+        "received_at": "2024-08-17T22:22:28",
+        "temperature": "19.37",
+        "salinity": "1868.19",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "56.56",
+        "message_id": "a8fff0bc-0370-4737-afcf-6919ae802218",
+        "received_at": "2024-08-17T22:48:28",
+        "temperature": "17.10",
+        "salinity": "4750.25",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "15.22",
+        "message_id": "cf6da5f5-2408-4790-8449-136a93ce4ea2",
+        "received_at": "2024-08-17T22:58:21",
+        "temperature": "18.88",
+        "salinity": "315765.44",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "30.97",
+        "message_id": "49842320-25dc-48aa-a93b-1b511d4b9319",
+        "received_at": "2024-08-17T23:42:42",
+        "temperature": "19.17",
+        "salinity": "145265.73",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "62.34",
+        "message_id": "d9e5bc83-8b30-4697-b267-9083ca4ed94c",
+        "received_at": "2024-08-18T00:21:35",
+        "temperature": "28.69",
+        "salinity": "4430.93",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "50.79",
+        "message_id": "853131a5-aac8-4dae-b57e-9b9148ba295d",
+        "received_at": "2024-08-18T00:24:17",
+        "temperature": "20.06",
+        "salinity": "2043.77",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "14.45",
+        "message_id": "2e48868d-a32a-4dd5-b1db-00577640d5c4",
+        "received_at": "2024-08-18T00:40:05",
+        "temperature": "18.48",
+        "salinity": "322812.50",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "151.57",
+        "message_id": "abd834a7-d06b-4780-9cbf-e6fd671644fe",
+        "received_at": "2024-08-18T00:48:50",
+        "temperature": "20.36",
+        "salinity": "3620.77",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "70.97",
+        "message_id": "25d7fefd-3080-407e-ace5-8a759d695bcb",
+        "received_at": "2024-08-18T01:39:04",
+        "temperature": "19.96",
+        "salinity": "9639.62",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "12.76",
+        "message_id": "d391e9eb-881d-4194-be50-28cac2d9ba3f",
+        "received_at": "2024-08-18T01:39:16",
+        "temperature": "19.96",
+        "salinity": "283364.81",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "54.62",
+        "message_id": "4b1b87c6-244d-46f6-acc7-9e6c5c140121",
+        "received_at": "2024-08-18T02:09:03",
+        "temperature": "18.78",
+        "salinity": "9803.91",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "22.81",
+        "message_id": "fc80925a-c95c-4e47-84a3-c0f60ce394a6",
+        "received_at": "2024-08-18T02:31:25",
+        "temperature": "20.85",
+        "salinity": "313742.34",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "60.16",
+        "message_id": "824c867a-9bfd-4232-befe-3620f9eb6091",
+        "received_at": "2024-08-18T02:52:31",
+        "temperature": "17.99",
+        "salinity": "681.00",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "96.16",
+        "message_id": "76028383-e516-4c5a-bcef-a7f24591dd8a",
+        "received_at": "2024-08-18T03:06:13",
+        "temperature": "19.37",
+        "salinity": "1849.30",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "55.26",
+        "message_id": "19a6f0a0-c7a2-4db9-95ad-070db4b29694",
+        "received_at": "2024-08-18T03:38:26",
+        "temperature": "17.30",
+        "salinity": "4701.35",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "15.44",
+        "message_id": "de269bfd-d61a-44a3-8a14-410945d678a8",
+        "received_at": "2024-08-18T03:42:02",
+        "temperature": "18.97",
+        "salinity": "243164.16",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "31.44",
+        "message_id": "e8af2472-ee5f-400f-8027-e72b85b8d624",
+        "received_at": "2024-08-18T04:24:31",
+        "temperature": "19.17",
+        "salinity": "224444.08",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "61.85",
+        "message_id": "e7469008-f27e-4841-a19d-9b6c5fb5ddaf",
+        "received_at": "2024-08-18T05:11:10",
+        "temperature": "27.46",
+        "salinity": "4522.20",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "50.97",
+        "message_id": "808437e2-dc75-4586-887b-3aa94ccd5bfd",
+        "received_at": "2024-08-18T05:13:47",
+        "temperature": "20.36",
+        "salinity": "2052.18",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "13.51",
+        "message_id": "77f16110-7202-4d76-8542-35e0db1251e3",
+        "received_at": "2024-08-18T05:19:59",
+        "temperature": "16.90",
+        "salinity": "319752.47",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "14.70",
+        "message_id": "33b354fa-6c4e-42fe-bd0c-46df5bcadb5a",
+        "received_at": "2024-08-18T05:24:16",
+        "temperature": "18.58",
+        "salinity": "147217.94",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "129.73",
+        "message_id": "2a9d6266-7bed-43c2-8d0e-284f493c9714",
+        "received_at": "2024-08-18T05:31:48",
+        "temperature": "20.16",
+        "salinity": "3710.03",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "71.54",
+        "message_id": "856e2068-4d30-4239-987e-b2b94a3c648f",
+        "received_at": "2024-08-18T06:22:05",
+        "temperature": "19.86",
+        "salinity": "9572.52",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "15.42",
+        "message_id": "c126ef75-bc05-4676-aa5b-0027313af8e9",
+        "received_at": "2024-08-18T06:22:47",
+        "temperature": "20.65",
+        "salinity": "309499.41",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "56.77",
+        "message_id": "99cddcca-0a93-41d2-babc-f967b823cf02",
+        "received_at": "2024-08-18T06:51:45",
+        "temperature": "18.88",
+        "salinity": "9235.58",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "23.62",
+        "message_id": "7ed0ee07-75e2-4f32-8490-af0231a7f7ca",
+        "received_at": "2024-08-18T07:13:58",
+        "temperature": "20.85",
+        "salinity": "281542.00",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "59.83",
+        "message_id": "4f2b78e5-cf56-4fce-b7ff-1e774d88562f",
+        "received_at": "2024-08-18T07:42:44",
+        "temperature": "17.99",
+        "salinity": "675.50",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "96.68",
+        "message_id": "93b8904e-1e49-46f9-9287-f9dc1e13a211",
+        "received_at": "2024-08-18T07:50:00",
+        "temperature": "19.17",
+        "salinity": "1869.25",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "15.49",
+        "message_id": "aa17c927-3b5e-4dca-89d9-7852fac61d25",
+        "received_at": "2024-08-18T08:25:28",
+        "temperature": "18.88",
+        "salinity": "263054.69",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "53.31",
+        "message_id": "d948117c-02c5-401a-827c-5ca9dcd7e90c",
+        "received_at": "2024-08-18T08:28:29",
+        "temperature": "17.20",
+        "salinity": "4641.32",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "31.09",
+        "message_id": "85ca18a4-b12f-4680-96e3-2162bd13811f",
+        "received_at": "2024-08-18T09:06:13",
+        "temperature": "19.17",
+        "salinity": "214930.30",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "61.35",
+        "message_id": "23afd874-b6c7-4f34-b356-dc134afd09e6",
+        "received_at": "2024-08-18T10:00:52",
+        "temperature": "25.94",
+        "salinity": "4615.75",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "13.52",
+        "message_id": "6dd3d1ad-e6ad-4030-8b70-ad223bb55fbd",
+        "received_at": "2024-08-18T10:01:56",
+        "temperature": "17.00",
+        "salinity": "342514.75",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "50.65",
+        "message_id": "96ece5a3-eb5c-457f-ae6a-f58ceee02907",
+        "received_at": "2024-08-18T10:03:30",
+        "temperature": "20.16",
+        "salinity": "2045.58",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "14.64",
+        "message_id": "8ae8a117-abe4-42fd-b899-2c8256d5b95c",
+        "received_at": "2024-08-18T10:08:12",
+        "temperature": "18.58",
+        "salinity": "210731.61",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "142.58",
+        "message_id": "87bc5d4f-f639-4b5e-a711-ea39ae73849c",
+        "received_at": "2024-08-18T10:14:33",
+        "temperature": "20.16",
+        "salinity": "3751.12",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "71.79",
+        "message_id": "dda7294f-2e16-4fc6-9ca3-d83413fec97d",
+        "received_at": "2024-08-18T11:03:50",
+        "temperature": "19.86",
+        "salinity": "9804.20",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "15.84",
+        "message_id": "cf7215c0-9d50-44a7-bbb7-c2dd575a3072",
+        "received_at": "2024-08-18T11:06:08",
+        "temperature": "20.36",
+        "salinity": "317055.13",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "57.78",
+        "message_id": "3e4d3447-8dbf-4cf8-873d-b011f54312de",
+        "received_at": "2024-08-18T11:34:16",
+        "temperature": "18.88",
+        "salinity": "8718.70",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "23.62",
+        "message_id": "56fdf83a-cb2e-4ee7-aff4-b393218c0330",
+        "received_at": "2024-08-18T11:56:23",
+        "temperature": "20.75",
+        "salinity": "242334.39",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "59.56",
+        "message_id": "dfcf2da3-83dc-4d3f-96b3-8ca2906f4ea6",
+        "received_at": "2024-08-18T12:31:49",
+        "temperature": "17.99",
+        "salinity": "670.60",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "96.48",
+        "message_id": "ec8d865d-555f-401d-9de2-e986769dc1c3",
+        "received_at": "2024-08-18T12:32:44",
+        "temperature": "19.17",
+        "salinity": "1908.31",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "15.41",
+        "message_id": "ed07b596-b8af-49ec-b9aa-0fc25d3576df",
+        "received_at": "2024-08-18T13:08:52",
+        "temperature": "18.68",
+        "salinity": "247570.64",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "50.81",
+        "message_id": "fe98f2e9-dc41-4337-8860-6882a450275e",
+        "received_at": "2024-08-18T13:18:56",
+        "temperature": "17.40",
+        "salinity": "4626.59",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "30.74",
+        "message_id": "d9553aff-9f30-45a8-9209-2c0dd39554f5",
+        "received_at": "2024-08-18T13:47:50",
+        "temperature": "19.17",
+        "salinity": "152221.98",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "13.45",
+        "message_id": "4b4c759c-cf3f-48b8-aab3-2af315ee2138",
+        "received_at": "2024-08-18T14:43:50",
+        "temperature": "16.90",
+        "salinity": "321389.38",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "61.26",
+        "message_id": "335fbf25-9bc3-4cd3-8d0e-102ed5814235",
+        "received_at": "2024-08-18T14:50:27",
+        "temperature": "25.94",
+        "salinity": "4623.46",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "14.50",
+        "message_id": "099b03ca-97ec-4b1c-9d14-6011228f2092",
+        "received_at": "2024-08-18T14:52:21",
+        "temperature": "18.58",
+        "salinity": "166139.02",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "51.03",
+        "message_id": "7be53aa8-3cbe-430f-b31f-5c95248e3b97",
+        "received_at": "2024-08-18T14:53:02",
+        "temperature": "19.96",
+        "salinity": "2061.45",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "144.64",
+        "message_id": "c336eed1-23c5-4dcb-bd20-b16f7b5d8639",
+        "received_at": "2024-08-18T14:57:32",
+        "temperature": "19.67",
+        "salinity": "3789.59",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "71.66",
+        "message_id": "001df554-d721-4c0c-911d-9371e3c1606d",
+        "received_at": "2024-08-18T15:46:10",
+        "temperature": "19.76",
+        "salinity": "10062.04",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "16.05",
+        "message_id": "da77d5ae-dc80-428d-a63d-06720ffbd916",
+        "received_at": "2024-08-18T15:49:31",
+        "temperature": "20.26",
+        "salinity": "313225.25",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "96.22",
+        "message_id": "09fa45df-6e39-4715-85ad-80e6641e41c2",
+        "received_at": "2024-08-18T17:15:57",
+        "temperature": "19.47",
+        "salinity": "1946.84",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "59.40",
+        "message_id": "f0499017-871d-4a5e-9e56-f8f5d8da43e4",
+        "received_at": "2024-08-18T17:21:28",
+        "temperature": "18.09",
+        "salinity": "665.02",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "15.55",
+        "message_id": "dfdc9833-4bed-4b4f-9d30-e3ebb7cba76d",
+        "received_at": "2024-08-18T17:52:18",
+        "temperature": "18.68",
+        "salinity": "256213.69",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "64.92",
+        "message_id": "14dfd818-3687-4b66-9823-ee637b307b1f",
+        "received_at": "2024-08-18T17:57:45",
+        "temperature": "19.37",
+        "salinity": "2642.84",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "48.76",
+        "message_id": "501b7a7f-d21c-4ade-8601-057ce9a7f6b2",
+        "received_at": "2024-08-18T18:08:57",
+        "temperature": "17.30",
+        "salinity": "4605.30",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "13.61",
+        "message_id": "06b96599-5b73-4b4e-b0b2-9323802e2674",
+        "received_at": "2024-08-18T19:25:50",
+        "temperature": "16.90",
+        "salinity": "347675.81",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "14.85",
+        "message_id": "c1a1d96b-1d48-476d-8992-5178f3dd767f",
+        "received_at": "2024-08-18T19:36:28",
+        "temperature": "18.68",
+        "salinity": "247712.23",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "61.28",
+        "message_id": "91acd8b0-d5ee-4b9b-ae02-eac1bed96158",
+        "received_at": "2024-08-18T19:40:11",
+        "temperature": "25.13",
+        "salinity": "4696.24",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "146.80",
+        "message_id": "df51d71a-2af8-46c7-83cc-2c7568fa858e",
+        "received_at": "2024-08-18T19:40:23",
+        "temperature": "19.37",
+        "salinity": "3829.84",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "53.38",
+        "message_id": "6e153e02-0088-402e-b77b-7c8cd95c010e",
+        "received_at": "2024-08-18T19:42:32",
+        "temperature": "20.06",
+        "salinity": "2047.83",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "74.26",
+        "message_id": "a7910c9b-d3b2-4ca9-9e44-23cc0f9b6cff",
+        "received_at": "2024-08-18T20:28:23",
+        "temperature": "19.86",
+        "salinity": "10262.18",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "16.25",
+        "message_id": "26448c9b-f19f-46fe-949e-1aa5042e43da",
+        "received_at": "2024-08-18T20:32:50",
+        "temperature": "19.86",
+        "salinity": "346300.75",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "66.47",
+        "message_id": "03354ccc-391e-450a-9eac-96929666616f",
+        "received_at": "2024-08-18T20:59:08",
+        "temperature": "18.88",
+        "salinity": "7973.06",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "28.84",
+        "message_id": "813cca29-647c-41b2-8f31-89400afa2a6b",
+        "received_at": "2024-08-18T21:21:08",
+        "temperature": "20.85",
+        "salinity": "214947.64",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "96.83",
+        "message_id": "adad2c83-ee65-4392-b290-5f384e810a42",
+        "received_at": "2024-08-18T21:58:51",
+        "temperature": "19.57",
+        "salinity": "1987.54",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "60.13",
+        "message_id": "3df6ef18-c56a-4066-9c66-c00957ab79b7",
+        "received_at": "2024-08-18T22:11:33",
+        "temperature": "18.09",
+        "salinity": "660.36",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "19.22",
+        "message_id": "ae7d0258-2d7b-4d2f-affe-38dd0f521b1e",
+        "received_at": "2024-08-18T22:35:26",
+        "temperature": "18.78",
+        "salinity": "276268.19",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "48.66",
+        "message_id": "ebcd83dd-619e-45d6-96ee-0b278e2b7a08",
+        "received_at": "2024-08-18T22:58:58",
+        "temperature": "17.20",
+        "salinity": "4507.80",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "33.38",
+        "message_id": "86bf9a50-399d-43a0-b0c8-c97d0a2cb2bc",
+        "received_at": "2024-08-18T23:11:04",
+        "temperature": "19.17",
+        "salinity": "224034.28",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "15.01",
+        "message_id": "a2eff03f-e31a-40a7-946f-42fcada1b13d",
+        "received_at": "2024-08-19T00:20:44",
+        "temperature": "18.68",
+        "salinity": "296557.56",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "133.62",
+        "message_id": "b64bc766-cbf9-42ec-ba22-451906fac70d",
+        "received_at": "2024-08-19T00:22:57",
+        "temperature": "19.17",
+        "salinity": "3903.67",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "61.56",
+        "message_id": "4e656a9b-7953-42f6-96b4-d08dc509bcb9",
+        "received_at": "2024-08-19T00:30:02",
+        "temperature": "24.33",
+        "salinity": "4795.36",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "55.33",
+        "message_id": "d3f03ba4-637f-4379-9e41-b3316c881129",
+        "received_at": "2024-08-19T00:32:13",
+        "temperature": "20.36",
+        "salinity": "2063.31",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "75.54",
+        "message_id": "f47d2f58-8aba-49fc-b938-160432990dbf",
+        "received_at": "2024-08-19T01:10:15",
+        "temperature": "19.96",
+        "salinity": "10220.54",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "16.29",
+        "message_id": "6c02393a-7d94-4bdb-b270-d71fd938537f",
+        "received_at": "2024-08-19T01:15:51",
+        "temperature": "19.67",
+        "salinity": "216851.16",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "64.70",
+        "message_id": "593cc65f-3ba9-41e9-92fe-6bb7e1d879a7",
+        "received_at": "2024-08-19T01:41:15",
+        "temperature": "18.97",
+        "salinity": "7627.21",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "29.80",
+        "message_id": "0e12d4ea-cfa9-4822-a6aa-119bc38c4eec",
+        "received_at": "2024-08-19T02:03:10",
+        "temperature": "20.85",
+        "salinity": "298012.47",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "98.19",
+        "message_id": "9dd4a5bf-ac7b-4cc2-b1df-cadc99918df3",
+        "received_at": "2024-08-19T02:41:21",
+        "temperature": "19.37",
+        "salinity": "2017.98",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "60.64",
+        "message_id": "d6e5e716-fd49-4f32-96b8-6ebea40d35e5",
+        "received_at": "2024-08-19T03:01:08",
+        "temperature": "17.99",
+        "salinity": "653.83",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "21.17",
+        "message_id": "64fcd7d6-f73e-42dc-9461-41c3ae21b010",
+        "received_at": "2024-08-19T03:18:19",
+        "temperature": "18.78",
+        "salinity": "215708.64",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "49.15",
+        "message_id": "5a3e5b4c-4b28-4f39-a999-e2c84b5c692a",
+        "received_at": "2024-08-19T03:49:04",
+        "temperature": "17.20",
+        "salinity": "4403.92",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "34.67",
+        "message_id": "4785ce78-bde9-4452-a6a2-189c497fb563",
+        "received_at": "2024-08-19T03:52:24",
+        "temperature": "19.07",
+        "salinity": "2915.55",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "13.80",
+        "message_id": "cc5eac9f-f00b-4b87-92ef-aab4a888d464",
+        "received_at": "2024-08-19T04:48:47",
+        "temperature": "17.00",
+        "salinity": "325103.25",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "15.16",
+        "message_id": "26efd719-3d4a-44f8-8bbc-7c0488b3915b",
+        "received_at": "2024-08-19T05:03:49",
+        "temperature": "18.58",
+        "salinity": "238613.02",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "116.22",
+        "message_id": "0df58cea-d8f1-4154-ad14-413bafb78f9c",
+        "received_at": "2024-08-19T05:05:25",
+        "temperature": "18.97",
+        "salinity": "3908.12",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "60.57",
+        "message_id": "9364d32b-6a1d-416e-8fb9-1e0aed73164f",
+        "received_at": "2024-08-19T05:19:57",
+        "temperature": "22.93",
+        "salinity": "4898.39",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "56.58",
+        "message_id": "bda9cc34-def7-468d-823f-e62a26499b64",
+        "received_at": "2024-08-19T05:22:40",
+        "temperature": "20.36",
+        "salinity": "2081.22",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "75.62",
+        "message_id": "e5a40ef9-4d1b-4f1c-b3f5-2f1796ee7d3b",
+        "received_at": "2024-08-19T05:51:51",
+        "temperature": "20.06",
+        "salinity": "10300.12",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "64.78",
+        "message_id": "b3db4152-93c7-494c-817b-b25811e468bd",
+        "received_at": "2024-08-19T06:23:05",
+        "temperature": "19.07",
+        "salinity": "7352.89",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "30.32",
+        "message_id": "6310719e-3731-4cd0-97c6-195476099c2e",
+        "received_at": "2024-08-19T06:45:01",
+        "temperature": "20.95",
+        "salinity": "308889.97",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "98.95",
+        "message_id": "5efa829a-90ac-42c3-92b2-30f8a0a8a8e4",
+        "received_at": "2024-08-19T07:23:36",
+        "temperature": "19.47",
+        "salinity": "2043.02",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "60.16",
+        "message_id": "c68a56ab-1476-4dfe-9f6a-4afd099ef048",
+        "received_at": "2024-08-19T07:51:06",
+        "temperature": "18.19",
+        "salinity": "645.47",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "22.73",
+        "message_id": "a5d8c763-beb5-4b05-9742-980af5021f4a",
+        "received_at": "2024-08-19T08:01:22",
+        "temperature": "18.78",
+        "salinity": "218444.83",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "35.12",
+        "message_id": "a8e17c57-c017-4f55-bce3-3693c13b6fba",
+        "received_at": "2024-08-19T08:33:35",
+        "temperature": "19.17",
+        "salinity": "1974.60",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "48.50",
+        "message_id": "d8721000-3b46-4a02-b12d-96a875bb9bed",
+        "received_at": "2024-08-19T08:39:08",
+        "temperature": "17.20",
+        "salinity": "4378.20",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "14.71",
+        "message_id": "57b45ebd-2ba0-4e8b-a8ad-7d8c40d6ef56",
+        "received_at": "2024-08-19T09:47:19",
+        "temperature": "18.48",
+        "salinity": "241627.23",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "102.89",
+        "message_id": "010cf2c7-0b08-4488-87ac-7f078f0a56d8",
+        "received_at": "2024-08-19T09:47:35",
+        "temperature": "18.97",
+        "salinity": "3857.61",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "55.44",
+        "message_id": "655eaa6e-5102-4c2e-81c6-2469a9012ad2",
+        "received_at": "2024-08-19T10:11:46",
+        "temperature": "20.06",
+        "salinity": "2054.45",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "74.70",
+        "message_id": "eabb785e-9f99-41a4-845e-5d563a2af127",
+        "received_at": "2024-08-19T10:33:28",
+        "temperature": "20.06",
+        "salinity": "10585.64",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "38.09",
+        "message_id": "a021a6b9-37c0-4bdf-9d5d-48d97e1c7199",
+        "received_at": "2024-08-19T10:35:01",
+        "temperature": "18.88",
+        "salinity": "2727.88",
+        "number": "998990031450"
+    },
+    {
+        "water_level": "16.44",
+        "message_id": "99be0d34-e7f7-4f30-a9a1-5759440d93e2",
+        "received_at": "2024-08-19T10:41:29",
+        "temperature": "20.26",
+        "salinity": "264043.13",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "63.99",
+        "message_id": "5c2455a2-00c9-40b2-8cf0-646aed46871a",
+        "received_at": "2024-08-19T11:05:02",
+        "temperature": "18.88",
+        "salinity": "7057.89",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "29.19",
+        "message_id": "6039bf15-6806-477a-9274-3189a60d37bf",
+        "received_at": "2024-08-19T11:26:51",
+        "temperature": "20.85",
+        "salinity": "271356.97",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "98.50",
+        "message_id": "e1b672db-38de-4046-b964-d7f31b45e6a2",
+        "received_at": "2024-08-19T12:06:04",
+        "temperature": "19.27",
+        "salinity": "2091.48",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "22.73",
+        "message_id": "1201da4a-2d2c-4032-a689-61ed0846322f",
+        "received_at": "2024-08-19T12:44:05",
+        "temperature": "18.88",
+        "salinity": "239822.88",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "34.61",
+        "message_id": "24b124f7-6fc6-40f7-be1a-62148a666485",
+        "received_at": "2024-08-19T13:15:05",
+        "temperature": "19.07",
+        "salinity": "1775.61",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "46.67",
+        "message_id": "01320b5f-4338-497a-96aa-257a1d68ec0a",
+        "received_at": "2024-08-19T13:29:05",
+        "temperature": "17.40",
+        "salinity": "4362.60",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "129.02",
+        "message_id": "1dcbaeb9-604e-4372-bbdc-c4a8a413deca",
+        "received_at": "2024-08-19T14:30:17",
+        "temperature": "19.07",
+        "salinity": "3824.16",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "13.95",
+        "message_id": "4afc6e67-819b-4066-9e5d-53d435c79e15",
+        "received_at": "2024-08-19T14:31:13",
+        "temperature": "18.58",
+        "salinity": "221242.88",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "53.68",
+        "message_id": "bfe9f1b4-31d2-49c7-9393-70c41e75b688",
+        "received_at": "2024-08-19T15:01:15",
+        "temperature": "20.06",
+        "salinity": "2082.13",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "72.54",
+        "message_id": "2daccb78-5762-46ef-b918-f951b5f8dbbc",
+        "received_at": "2024-08-19T15:15:38",
+        "temperature": "20.06",
+        "salinity": "10766.70",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "36.91",
+        "message_id": "db588367-c8c4-401d-a039-f7182106c5bd",
+        "received_at": "2024-08-19T15:18:27",
+        "temperature": "18.78",
+        "salinity": "2732.76",
+        "number": "998990031450"
+    },
+    {
+        "water_level": "61.70",
+        "message_id": "72fffd40-374e-4826-ba78-70c01aa37556",
+        "received_at": "2024-08-19T15:47:23",
+        "temperature": "18.88",
+        "salinity": "6788.42",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "27.46",
+        "message_id": "b93171a0-07b3-456a-84fb-d929546c0b03",
+        "received_at": "2024-08-19T16:09:11",
+        "temperature": "20.75",
+        "salinity": "262614.00",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "97.69",
+        "message_id": "afeaa2cf-40d2-4a0e-902c-d4160019525a",
+        "received_at": "2024-08-19T16:49:24",
+        "temperature": "19.37",
+        "salinity": "2138.19",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "63.23",
+        "message_id": "d8dc3ee6-23c4-4578-a2cb-b0ce3a45a63e",
+        "received_at": "2024-08-19T17:24:27",
+        "temperature": "19.17",
+        "salinity": "2613.67",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "19.80",
+        "message_id": "e0d812b9-8829-49e8-b8ac-c4f73a6f8d4b",
+        "received_at": "2024-08-19T17:27:12",
+        "temperature": "18.88",
+        "salinity": "256847.56",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "58.04",
+        "message_id": "c9a87852-595f-4a36-a028-d6746c99eeda",
+        "received_at": "2024-08-19T17:30:25",
+        "temperature": "17.99",
+        "salinity": "650.30",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "34.46",
+        "message_id": "899f0642-938e-4112-9be7-d13876bc7183",
+        "received_at": "2024-08-19T17:57:09",
+        "temperature": "18.97",
+        "salinity": "1704.16",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "13.04",
+        "message_id": "24e18746-07b2-4af0-b40e-d862c5c42b86",
+        "received_at": "2024-08-19T18:54:37",
+        "temperature": "16.90",
+        "salinity": "327945.50",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "100.01",
+        "message_id": "099ba813-ab91-4341-84ce-0fbd4d08d60e",
+        "received_at": "2024-08-19T19:13:27",
+        "temperature": "19.07",
+        "salinity": "3897.75",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "14.14",
+        "message_id": "6d452cc7-22f9-409b-9952-8104f480beef",
+        "received_at": "2024-08-19T19:16:03",
+        "temperature": "18.48",
+        "salinity": "333140.38",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "54.01",
+        "message_id": "f1eb52a2-e427-4065-a174-d31cde87080e",
+        "received_at": "2024-08-19T19:50:35",
+        "temperature": "20.16",
+        "salinity": "2094.59",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "72.11",
+        "message_id": "a2ae92af-38b1-4a30-81e1-860605e3c2c2",
+        "received_at": "2024-08-19T19:58:09",
+        "temperature": "19.96",
+        "salinity": "10743.85",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "36.63",
+        "message_id": "39d67e40-3866-4227-a562-c33ed98c80fc",
+        "received_at": "2024-08-19T20:02:45",
+        "temperature": "18.78",
+        "salinity": "2723.36",
+        "number": "998990031450"
+    },
+    {
+        "water_level": "16.19",
+        "message_id": "0af37ce7-681f-4080-934b-8ef42b6558cd",
+        "received_at": "2024-08-19T20:08:16",
+        "temperature": "20.55",
+        "salinity": "315012.75",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "61.94",
+        "message_id": "74f5be61-a794-471a-b68e-b27e1aac44ac",
+        "received_at": "2024-08-19T20:30:06",
+        "temperature": "18.97",
+        "salinity": "6592.67",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "28.28",
+        "message_id": "8fa4a9c8-ee79-4b7c-af73-85bb450240dd",
+        "received_at": "2024-08-19T20:51:28",
+        "temperature": "20.85",
+        "salinity": "251970.17",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "98.03",
+        "message_id": "61a1a2e5-8fa2-4980-a65d-56344787c0fd",
+        "received_at": "2024-08-19T21:33:12",
+        "temperature": "19.37",
+        "salinity": "2157.76",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "18.73",
+        "message_id": "75fd4453-55d1-4d8f-9f1c-f113b889394b",
+        "received_at": "2024-08-19T22:10:18",
+        "temperature": "18.97",
+        "salinity": "241669.06",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "56.84",
+        "message_id": "31dce40c-d3f1-4cfa-bcab-bbacd2feb0dd",
+        "received_at": "2024-08-19T22:19:54",
+        "temperature": "18.28",
+        "salinity": "641.43",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "35.27",
+        "message_id": "ebc8898c-324c-41d2-af80-0bef34318a4e",
+        "received_at": "2024-08-19T22:39:06",
+        "temperature": "19.07",
+        "salinity": "1674.24",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "80.01",
+        "message_id": "20dff043-b75b-4f38-9f06-df2a76958eeb",
+        "received_at": "2024-08-19T23:56:19",
+        "temperature": "19.27",
+        "salinity": "3895.62",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "14.74",
+        "message_id": "672b9a92-657d-4e4a-8229-6a5c00886d41",
+        "received_at": "2024-08-19T23:59:32",
+        "temperature": "18.68",
+        "salinity": "263279.78",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "55.09",
+        "message_id": "da29c546-e489-4d23-8738-8c06eb12c952",
+        "received_at": "2024-08-20T00:40:09",
+        "temperature": "19.86",
+        "salinity": "10511.18",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "16.41",
+        "message_id": "88532c60-417c-48e8-bbef-0cc012eb8fe6",
+        "received_at": "2024-08-20T00:51:21",
+        "temperature": "20.36",
+        "salinity": "242525.52",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "62.80",
+        "message_id": "c7c99a1f-c752-4068-b8eb-07d7627ea63c",
+        "received_at": "2024-08-20T01:12:07",
+        "temperature": "18.97",
+        "salinity": "6426.88",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "29.07",
+        "message_id": "cf610664-2359-4ca3-b2d2-61187e88eacd",
+        "received_at": "2024-08-20T01:33:45",
+        "temperature": "20.85",
+        "salinity": "290835.28",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "98.94",
+        "message_id": "de9c5771-39cc-4de7-9065-845e23c6ad03",
+        "received_at": "2024-08-20T02:15:29",
+        "temperature": "19.27",
+        "salinity": "2171.63",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "18.83",
+        "message_id": "036a97d6-9233-419f-956b-5422da977db6",
+        "received_at": "2024-08-20T02:53:01",
+        "temperature": "18.97",
+        "salinity": "327141.16",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "59.48",
+        "message_id": "b572e604-44c5-4da4-b99d-39af77304821",
+        "received_at": "2024-08-20T03:09:33",
+        "temperature": "18.09",
+        "salinity": "634.24",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "35.69",
+        "message_id": "fb50c913-a507-4b70-af7c-c250c1882a2e",
+        "received_at": "2024-08-20T03:20:37",
+        "temperature": "19.07",
+        "salinity": "1673.60",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "46.49",
+        "message_id": "58297c20-5ab6-4122-8c67-0da26810b459",
+        "received_at": "2024-08-20T03:59:10",
+        "temperature": "17.30",
+        "salinity": "4198.60",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "13.81",
+        "message_id": "c6ee6f82-3c96-4f63-919d-166396a58f0e",
+        "received_at": "2024-08-20T04:18:23",
+        "temperature": "17.10",
+        "salinity": "314131.22",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "69.73",
+        "message_id": "94812432-3f2b-45fa-9afd-bff97ba1464e",
+        "received_at": "2024-08-20T04:38:46",
+        "temperature": "19.37",
+        "salinity": "3892.72",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "15.03",
+        "message_id": "f9fb0f34-183c-42d5-addc-ed874c2cf9e6",
+        "received_at": "2024-08-20T04:43:09",
+        "temperature": "18.68",
+        "salinity": "384205.97",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "72.79",
+        "message_id": "135f6983-e52e-4104-8900-205294810a2c",
+        "received_at": "2024-08-20T05:21:29",
+        "temperature": "19.86",
+        "salinity": "10343.47",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "39.44",
+        "message_id": "d25ad33e-1e07-40f8-a208-c41cb64039c1",
+        "received_at": "2024-08-20T05:29:36",
+        "temperature": "18.97",
+        "salinity": "2668.06",
+        "number": "998990031450"
+    },
+    {
+        "water_level": "55.53",
+        "message_id": "c0390551-e8be-4636-980d-761d4910da76",
+        "received_at": "2024-08-20T05:29:52",
+        "temperature": "20.06",
+        "salinity": "2102.72",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "16.68",
+        "message_id": "4f9695ee-718d-45a9-a5eb-fa50c31dc323",
+        "received_at": "2024-08-20T05:34:06",
+        "temperature": "20.26",
+        "salinity": "339976.38",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "63.93",
+        "message_id": "8476cb6d-c848-4b8d-9736-56007cbffd1b",
+        "received_at": "2024-08-20T05:53:55",
+        "temperature": "19.07",
+        "salinity": "6306.41",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "60.84",
+        "message_id": "e7d29f01-e777-41b3-ae0b-4d66f23916cb",
+        "received_at": "2024-08-20T05:56:15",
+        "temperature": "23.63",
+        "salinity": "4796.62",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "29.54",
+        "message_id": "e75953ae-2b39-48b1-a178-30be41cc2296",
+        "received_at": "2024-08-20T06:14:55",
+        "temperature": "20.85",
+        "salinity": "294417.44",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "99.55",
+        "message_id": "f9890a37-0751-49e0-b849-d87761c56a49",
+        "received_at": "2024-08-20T06:57:50",
+        "temperature": "19.37",
+        "salinity": "2182.96",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "63.91",
+        "message_id": "69a72f0d-d799-474a-96b9-ec673a69ffe7",
+        "received_at": "2024-08-20T07:28:48",
+        "temperature": "19.27",
+        "salinity": "2614.94",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "19.43",
+        "message_id": "d669b939-5046-411b-8a52-74a399ba8c1c",
+        "received_at": "2024-08-20T07:35:31",
+        "temperature": "19.07",
+        "salinity": "278445.94",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "59.55",
+        "message_id": "f932d12d-57a8-4395-97d8-3de7dacad153",
+        "received_at": "2024-08-20T07:59:38",
+        "temperature": "18.19",
+        "salinity": "631.20",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "35.74",
+        "message_id": "646ff102-9be6-4841-8c42-34df44912fae",
+        "received_at": "2024-08-20T08:01:56",
+        "temperature": "19.17",
+        "salinity": "1675.25",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "46.51",
+        "message_id": "643a3afa-bba1-4f17-9ced-eb05d06c8b93",
+        "received_at": "2024-08-20T08:49:11",
+        "temperature": "17.30",
+        "salinity": "4202.40",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "63.71",
+        "message_id": "130a0909-f23f-4425-9340-66b676299e0b",
+        "received_at": "2024-08-20T09:21:00",
+        "temperature": "19.27",
+        "salinity": "3864.57",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "14.81",
+        "message_id": "10e7db85-fb4c-4d62-bcca-e145872dd6f5",
+        "received_at": "2024-08-20T09:26:42",
+        "temperature": "18.68",
+        "salinity": "283703.16",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "14.81",
+        "message_id": "bae99ae9-b8e4-4538-af3b-3c0ce458afe5",
+        "received_at": "2024-08-20T09:32:01",
+        "temperature": "18.68",
+        "salinity": "283703.16",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "72.03",
+        "message_id": "c179c4a2-90b7-4eeb-a28a-587bc5b652ad",
+        "received_at": "2024-08-20T10:02:54",
+        "temperature": "19.96",
+        "salinity": "10439.67",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "53.92",
+        "message_id": "18613fb1-9b9c-4329-bb8f-8a98f4e13e9c",
+        "received_at": "2024-08-20T10:19:33",
+        "temperature": "20.06",
+        "salinity": "2126.72",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "62.99",
+        "message_id": "6649d8cd-2759-418c-ac3f-510361f51a91",
+        "received_at": "2024-08-20T10:35:39",
+        "temperature": "19.17",
+        "salinity": "6201.93",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "61.04",
+        "message_id": "9e68c9a7-189f-49b7-8a97-7419a3b283ba",
+        "received_at": "2024-08-20T10:46:00",
+        "temperature": "23.93",
+        "salinity": "4816.48",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "28.44",
+        "message_id": "c2a72754-ddee-422c-a7c0-90639f9b53f5",
+        "received_at": "2024-08-20T10:56:32",
+        "temperature": "20.85",
+        "salinity": "361202.25",
+        "number": "998994041424"
+    },
+    {
+        "water_level": "98.91",
+        "message_id": "3eab66f8-7a72-4130-9e42-88cd6f0534b8",
+        "received_at": "2024-08-20T11:40:15",
+        "temperature": "19.37",
+        "salinity": "2208.57",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "62.56",
+        "message_id": "b4f55fd3-7c61-4e47-9d8c-942440641d0f",
+        "received_at": "2024-08-20T12:10:24",
+        "temperature": "19.27",
+        "salinity": "2626.59",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "19.17",
+        "message_id": "61d997d9-7854-4a2a-a266-9e7f54d3d701",
+        "received_at": "2024-08-20T12:18:40",
+        "temperature": "18.97",
+        "salinity": "245916.88",
+        "number": "998993201424"
+    },
+    {
+        "water_level": "33.86",
+        "message_id": "fd4e4264-afbb-4643-a3ce-f8eaae8b7d58",
+        "received_at": "2024-08-20T12:43:31",
+        "temperature": "19.17",
+        "salinity": "1666.36",
+        "number": "998943874243"
+    },
+    {
+        "water_level": "58.18",
+        "message_id": "9ea8e721-3bff-4de7-a242-ee6bae63d6b2",
+        "received_at": "2024-08-20T12:49:10",
+        "temperature": "18.28",
+        "salinity": "633.21",
+        "number": "998993581424"
+    },
+    {
+        "water_level": "45.40",
+        "message_id": "4dd06ec2-0080-4d98-abd9-32b98d938acd",
+        "received_at": "2024-08-20T13:39:12",
+        "temperature": "17.30",
+        "salinity": "4206.27",
+        "number": "998990011451"
+    },
+    {
+        "water_level": "13.35",
+        "message_id": "c55b1609-09f5-4937-83a2-9bf3e06c746d",
+        "received_at": "2024-08-20T13:41:32",
+        "temperature": "16.90",
+        "salinity": "305567.44",
+        "number": "998990011459"
+    },
+    {
+        "water_level": "57.85",
+        "message_id": "325d511d-dea0-444e-86aa-07732a9ff1a8",
+        "received_at": "2024-08-20T14:03:35",
+        "temperature": "19.27",
+        "salinity": "3840.08",
+        "number": "998942664223"
+    },
+    {
+        "water_level": "14.18",
+        "message_id": "2426197b-e9b4-435a-a49e-492a3178cc62",
+        "received_at": "2024-08-20T14:10:18",
+        "temperature": "18.58",
+        "salinity": "254334.80",
+        "number": "998942484243"
+    },
+    {
+        "water_level": "70.14",
+        "message_id": "5839ff0d-bb91-4421-93c4-5fcd3e9f400f",
+        "received_at": "2024-08-20T14:44:52",
+        "temperature": "19.86",
+        "salinity": "10455.17",
+        "number": "998991701424"
+    },
+    {
+        "water_level": "39.98",
+        "message_id": "f201fb01-4153-4a8e-bfc4-8924ab49b52b",
+        "received_at": "2024-08-20T14:55:56",
+        "temperature": "18.88",
+        "salinity": "2631.43",
+        "number": "998990031450"
+    },
+    {
+        "water_level": "16.37",
+        "message_id": "50539fbf-ea97-419e-a16e-deaf417f417f",
+        "received_at": "2024-08-20T14:59:53",
+        "temperature": "21.05",
+        "salinity": "265969.81",
+        "number": "998990401453"
+    },
+    {
+        "water_level": "51.77",
+        "message_id": "153846c8-e3a2-4dda-b00d-226a8b6e4133",
+        "received_at": "2024-08-20T15:09:00",
+        "temperature": "20.06",
+        "salinity": "2144.13",
+        "number": "998946174223"
+    },
+    {
+        "water_level": "60.20",
+        "message_id": "01919cd0-b96e-4979-8ff8-299e5133488d",
+        "received_at": "2024-08-20T15:17:52",
+        "temperature": "18.88",
+        "salinity": "6117.50",
+        "number": "998995111424"
+    },
+    {
+        "water_level": "60.98",
+        "message_id": "9fc35209-e905-43fa-8721-011d7aa57114",
+        "received_at": "2024-08-20T15:35:35",
+        "temperature": "25.54",
+        "salinity": "4679.01",
+        "number": "998936863646"
+    },
+    {
+        "water_level": "97.89",
+        "message_id": "4f24abc9-fa4b-4ba5-9343-7437b6ede109",
+        "received_at": "2024-08-20T16:23:27",
+        "temperature": "19.17",
+        "salinity": "2234.06",
+        "number": "998992801424"
+    },
+    {
+        "water_level": "61.68",
+        "message_id": "c787360f-21da-4794-944c-c007ae6ce07b",
+        "received_at": "2024-08-20T16:51:30",
+        "temperature": "19.17",
+        "salinity": "2634.39",
+        "number": "998990201458"
+    },
+    {
+        "water_level": "17.81",
+        "message_id": "adacc012-4f08-4bae-a3d7-82fad1e771aa",
+        "received_at": "2024-08-20T17:01:14",
+        "temperature": "19.07",
+        "salinity": "221904.92",
+        "number": "998993201424"
+    }
+]

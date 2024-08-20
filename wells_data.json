@@ -1,7 +1,202 @@
-{
-  "name": "Fargona 01",
-  "address": "Fargona Rishton",
-  "longitude": "71.717034",
-  "latitude": "40.440971",
-  "number": "998916691972"
-}
+[
+  {
+    "latitude": "40.925322",
+    "number": "998936863646",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Namangan tuman, Sho'rqo'rg'on qishlogi, Bogbon ko'chasi 2-uy",
+    "well_id": "07c97e86-5e65-4acd-9991-d39fa52e8566",
+    "name": "Sho'rqo'rg'on 1",
+    "longitude": "71.7186184"
+  },
+  {
+    "latitude": "40.95814",
+    "number": "998946174223",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani, Jiydakapa qishlogi",
+    "well_id": "2abe6eb3-f062-4f99-9313-c48ba4f5b4f9",
+    "name": "Uychi tumani 123",
+    "longitude": "71.79173"
+  },
+  {
+    "latitude": "40.394419",
+    "number": "998916557705",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Fargona tumani",
+    "well_id": "5cf76f3b-5350-49e3-9a7f-65640efc9135",
+    "name": "Fargona (Test uchun)",
+    "longitude": "71.795011"
+  },
+  {
+    "latitude": "40.960708",
+    "number": "998943874243",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi Tumani, Jiydakapa qishlogi",
+    "well_id": "035e6b0d-58e2-4ff8-b880-ab592db85574",
+    "name": "Uychi tumani 121",
+    "longitude": "71.781093"
+  },
+  {
+    "latitude": "40.96112",
+    "number": "998942664223",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "13ef8565-047e-4b12-81ee-d13032648984",
+    "name": "Uychi tumani 128",
+    "longitude": "71.77893"
+  },
+  {
+    "latitude": "40.9764",
+    "number": "998990201458",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati Uychi tumani",
+    "well_id": "0b969187-9e9d-4a01-9151-bf32fdc503da",
+    "name": "Uychi tumani 86",
+    "longitude": "71.79469"
+  },
+  {
+    "latitude": "40.997822",
+    "number": "998942484243",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "04495271-40f6-43b9-9032-0e5416dee1e4",
+    "name": "Uychi tumani 50",
+    "longitude": "71.76036"
+  },
+  {
+    "latitude": "40.99575",
+    "number": "998990011459",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namanagan Viloyati Uychi timani",
+    "well_id": "2e282ce1-e0b6-4524-843a-8837e9c36d95",
+    "name": "Uychi tumani 52",
+    "longitude": "71.76057"
+  },
+  {
+    "latitude": "40.99255",
+    "number": "998990401453",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan Viloyati, Uychi tumani",
+    "well_id": "39ad4696-36ba-4555-b75c-07389597c5ba",
+    "name": "Uychi tumani 55",
+    "longitude": "71.76194"
+  },
+  {
+    "latitude": "40.98756",
+    "number": "998990011451",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati Uychi tumani",
+    "well_id": "f4360e32-40b2-48c8-a638-5005910713ed",
+    "name": "Uychi tumani 56",
+    "longitude": "71.76364"
+  },
+  {
+    "latitude": "41.01678",
+    "number": "998993581424",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namanagan viloyati Uychi tumani",
+    "well_id": "c15def8b-d3c0-49f9-9d4c-c2fb4e64505f",
+    "name": "Uychi tumani 70 ",
+    "longitude": "71.73585"
+  },
+  {
+    "latitude": "40.982413",
+    "number": "998990031450",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "56b5fd86-159f-463d-9755-5c9e2955185f",
+    "name": "Uychi tumani 106",
+    "longitude": "71.901517"
+  },
+  {
+    "latitude": "40.999185",
+    "number": "998991701424",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "05f18482-4201-4b8f-ba20-38436da3e71f",
+    "name": "Uychi tumani 72 A",
+    "longitude": "71.877192"
+  },
+  {
+    "latitude": "41.005295",
+    "number": "998995111424",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "6ebea201-1e39-44c0-8099-fa7a3d7245ca",
+    "name": "Uychi tumani 100 ",
+    "longitude": "71.885551"
+  },
+  {
+    "latitude": "41.011452",
+    "number": "998994041424",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "d7f7f478-a483-41f5-928b-4a400e9e3c31",
+    "name": "Uychi tumani 94",
+    "longitude": "71.877708"
+  },
+  {
+    "latitude": "41.015062",
+    "number": "998992801424",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "f2c5b3bb-74b1-458d-9ae6-f0434a34f648",
+    "name": "Uychi tumani 91",
+    "longitude": "71.873144"
+  },
+  {
+    "latitude": "41.017839",
+    "number": "998993201424",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Namangan viloyati, Uychi tumani",
+    "well_id": "a9e9dde4-9943-47f1-9a3e-3f0c1fbc5bd3",
+    "name": "Uychi tumani 41",
+    "longitude": "71.869352"
+  },
+  {
+    "latitude": "40.4692060612338",
+    "number": "998916691972",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Fargona1 test",
+    "well_id": "e6c675f4-daab-43c9-827b-b8f368290105",
+    "name": "Fagonatest",
+    "longitude": "71.7200819912783"
+  },
+  {
+    "latitude": "40.4692060612338",
+    "number": "998939439943",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Andijon",
+    "well_id": "a79acb17-fc44-4494-91f4-21ceb72300a6",
+    "name": "Quduqlar 55",
+    "longitude": "71.7200819912783"
+  },
+  {
+    "latitude": "40.928075",
+    "number": "998999439943",
+    "status": true,
+    "created_time": "2024-08-12T09:32:21.939018",
+    "address": "Gerpe",
+    "well_id": "504c4f62-4bd1-4941-86db-3b48beb295d1",
+    "name": "Zohid aka 1",
+    "longitude": "71.720152"
+  }
+]
