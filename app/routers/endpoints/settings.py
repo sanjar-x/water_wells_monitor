@@ -1,4 +1,4 @@
-from datetime import timedelta
+from datetime import timedelta, datetime
 from typing import List
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
@@ -34,6 +34,7 @@ async def init_wells_data_database(
         for well in wells:
             new_well = WellsModel(
                 well_id=str(well.well_id),
+                time=well.created_time,
                 **well.model_dump(exclude={"well_id", "created_time"}),
             )
             session.add(new_well)
@@ -54,6 +55,7 @@ async def init_messages_data_database(
             )
             message = MessageModel(
                 message_id=str(message.message_id),
+                received_at=message.received_at,
                 **message.model_dump(exclude={"message_id", "received_at"}),
             )
             session.add(message)
