@@ -9,6 +9,7 @@ class WelleSchema(BaseModel):
     address: Optional[str] = None
     latitude: Optional[str] = None
     longitude: Optional[str] = None
+    depth: Optional[str] = None
 
 
 class WelleUpdateSchema(BaseModel):
@@ -17,6 +18,7 @@ class WelleUpdateSchema(BaseModel):
     address: Optional[str] = None
     latitude: Optional[str] = None
     longitude: Optional[str] = None
+    depth: Optional[str] = None
 
 
 from datetime import datetime
@@ -29,5 +31,6 @@ class WellSchema(BaseModel):
     address: str
     latitude: float
     longitude: float
+    depth: str
     status: bool
     created_time: datetime

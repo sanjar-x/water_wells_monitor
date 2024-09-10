@@ -1,7 +1,7 @@
 import uuid
 from datetime import datetime, timedelta, timezone
 
-from sqlalchemy import Column, Boolean, String, DateTime
+from sqlalchemy import Column, Boolean, Integer, String, DateTime
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.sql import func
 
@@ -50,6 +50,7 @@ class WellsModel(Base):
     address = Column(String, nullable=True)
     latitude = Column(String, nullable=True)
     longitude = Column(String, nullable=True)
+    depth = Column(String, nullable=True)
     status = Column(Boolean, default=True)
     time = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 
