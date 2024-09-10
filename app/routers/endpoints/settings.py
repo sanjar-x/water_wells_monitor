@@ -5,6 +5,7 @@ from fastapi.responses import JSONResponse
 from app.core.database import engine, get_session
 from app.schemas.wells_schemas import WellSchema
 from app.schemas.message_schemas import MessageSchema
+from app.services.crud.well_crud import get_well_by_number
 from app.models.models import (
     UserModel,
     WellsModel,
@@ -45,7 +46,12 @@ async def init_messages_data_database(
 ):
     async with get_session() as session:
         for message in messages:
-
+            well = await get_well_by_number(message.number)
+            if not well:
+                continue
+            message.water_level = str(
+                int(well.depth) - round(float(message.water_level))
+            )
             message = MessageModel(
                 message_id=str(message.message_id),
                 **message.model_dump(exclude={"message_id", "received_at"}),

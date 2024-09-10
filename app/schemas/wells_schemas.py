@@ -29,8 +29,8 @@ class WellSchema(BaseModel):
     name: str
     number: str
     address: str
-    latitude: float
-    longitude: float
+    latitude: str
+    longitude: str
     depth: str
     status: bool
     created_time: datetime
