@@ -7,7 +7,7 @@ from app.models.models import WellsModel, MessageModel
 async def update_well_status():
     tz = timezone(timedelta(hours=5))
     async with get_session() as session:
-        result = await session.execute(select(WellsModel))
+        result = await session.execute(select(WellsModel.status, WellsModel.number))
         wells = result.scalars().all()
 
         for well in wells:
