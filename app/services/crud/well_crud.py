@@ -6,7 +6,12 @@ from sqlalchemy.exc import NoResultFound, SQLAlchemyError
 
 from app.core.database import get_session
 from app.models.models import WellsModel
-from app.schemas.wells_schemas import WelleSchema, WelleDevSchema, WelleUpdateSchema
+from app.schemas.wells_schemas import (
+    WelleSchema,
+    WelleDevSchema,
+    WelleUpdateSchema,
+    WelleUpdateDevSchema,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -59,23 +64,23 @@ async def get_well_by_number(number: str) -> Optional[WellsModel]:
 
 
 async def update_well(
-    well_id: str, update_well_data: WelleUpdateSchema
+    well_id: str, update_well_data: Union[WelleUpdateSchema, WelleUpdateDevSchema]
 ) -> Optional[WellsModel]:
-    update_data_dict = update_well_data.dict()  # Convert Pydantic model to dictionary
+    update_data_dict = update_well_data.model_dump()
     async with get_session() as session:
         try:
             result = await session.execute(
                 select(WellsModel).filter(WellsModel.well_id == well_id)
-            )  # type: ignore
+            )
             well_to_update = result.scalar_one()
             for (
                 key,
                 value,
-            ) in update_data_dict.items():  # Now iterate over the dictionary
+            ) in update_data_dict.items():
                 if value is not None:
                     setattr(well_to_update, key, value)
-            await session.commit()  # type: ignore
-            await session.refresh(well_to_update)  # type: ignore
+            await session.commit()
+            await session.refresh(well_to_update)
             return well_to_update
         except NoResultFound:
             return None
