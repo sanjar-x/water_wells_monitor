@@ -53,7 +53,12 @@ class WellsModel(Base):
     depth = Column(String, nullable=True)
     salinity_start = Column(String, nullable=True)
     salinity_end = Column(String, nullable=True)
+    temperature_start = Column(String, nullable=True)
+    temperature_end = Column(String, nullable=True)
+    water_level_start = Column(String, nullable=True)
+    water_level_end = Column(String, nullable=True)
     status = Column(Boolean, default=True)
+    auto = Column(Boolean, default=False)
     time = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 
 
@@ -71,6 +76,15 @@ class MessageModel(Base):
     water_level = Column(String, nullable=True)
     number = Column(String, nullable=True)
     received_at = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
+
+    # {
+    #     "water_level": "30",
+    #     "message_id": "8e31787d-a7bf-46b7-bb4f-bffcb0d2a437",
+    #     "received_at": "2024-09-27T05:11:26.526181",
+    #     "number": "998993456427",
+    #     "temperature": "18.88",
+    #     "salinity": "2274.587511200289",
+    # },
 
 
 class StatementModel(Base):

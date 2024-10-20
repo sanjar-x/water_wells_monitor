@@ -255,8 +255,13 @@
     "latitude": "40.608525",
     "salinity_start": "1900",
     "salinity_end": "2200",
+    "water_level_start": "86",
+    "water_level_end": "91",
+    "temperature_start": "18.00",
+    "temperature_end": "21.00",
     "name": "Sayhunobod t. 239",
     "depth": "400",
+    "auto": true,
     "time": "2024-08-20T17:35:12.537835"
   },
   {

@@ -63,6 +63,20 @@ async def get_well_by_number(number: str) -> Optional[WellsModel]:
             return None
 
 
+async def get_inactive_well(number: str) -> Optional[WellsModel]:
+    async with get_session() as session:
+        try:
+            result = await session.execute(
+                select(WellsModel).filter(WellsModel.number == number)
+            )  # type: ignore
+            return result.scalar_one()
+        except NoResultFound:
+            return None
+        except SQLAlchemyError as e:
+            logger.error(f"Error fetching well with number {number}: {e}")
+            return None
+
+
 async def update_well(
     well_id: str, update_well_data: Union[WelleUpdateSchema, WelleUpdateDevSchema]
 ) -> Optional[WellsModel]:
