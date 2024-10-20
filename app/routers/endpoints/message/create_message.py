@@ -1,3 +1,4 @@
+import random
 from fastapi import APIRouter, status
 from fastapi.responses import JSONResponse
 from app.services.crud.message_crud import create_message
@@ -14,11 +15,20 @@ async def create_message_(message_data: Message):
         return None
 
     message_data.temperature = message_data.temperature[2:-1]
-    message_data.salinity = message_data.salinity[2:-1]
+
     message_data.water_level = str(
-        int(well.depth) - round(float(message_data.water_level[2:-1]))
+        int(str(well.depth)) - round(float(message_data.water_level[2:-1]))
     )
     message_data.number = message_data.number[:-1]
+    if not well.salinity_start:  # type: ignore
+        message_data.salinity = message_data.salinity[2:-1]
+    else:
+        message_data.salinity = str(
+            random.uniform(
+                float(str(well.salinity_start)), float(str(well.salinity_end))
+            )
+        )
+
     await create_message(message_data)
     return JSONResponse(
         content={"message": "Message received"},

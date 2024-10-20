@@ -35,6 +35,11 @@ from app.routers.endpoints.settings import settings_router
 HTTP_PORT = 8000
 
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    yield
+
+
 app = FastAPI(
     title="Wells Platform API",
     description="API-документация для веб-платформы колодец",
@@ -42,6 +47,7 @@ app = FastAPI(
     openapi_url="/api/openapi.json",
     docs_url="/api/docs",
     redoc_url="/api/redoc",
+    lifespan=lifespan,
 )
 app.add_middleware(
     CORSMiddleware,

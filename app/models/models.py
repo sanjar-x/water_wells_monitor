@@ -51,6 +51,8 @@ class WellsModel(Base):
     latitude = Column(String, nullable=True)
     longitude = Column(String, nullable=True)
     depth = Column(String, nullable=True)
+    salinity_start = Column(String, nullable=True)
+    salinity_end = Column(String, nullable=True)
     status = Column(Boolean, default=True)
     time = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 

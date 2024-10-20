@@ -1,17 +1,17 @@
 import logging
-from typing import List, Optional
+from typing import List, Union, Optional
 from sqlalchemy import delete
 from sqlalchemy.future import select
 from sqlalchemy.exc import NoResultFound, SQLAlchemyError
 
 from app.core.database import get_session
 from app.models.models import WellsModel
-from app.schemas.wells_schemas import WelleSchema, WelleUpdateSchema
+from app.schemas.wells_schemas import WelleSchema, WelleDevSchema, WelleUpdateSchema
 
 logger = logging.getLogger(__name__)
 
 
-async def create_well(well_data: WelleSchema) -> WellsModel:
+async def create_well(well_data: Union[WelleSchema, WelleDevSchema]) -> WellsModel:
     async with get_session() as session:
         new_well = WellsModel(**well_data.model_dump())
         session.add(new_well)

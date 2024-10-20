@@ -17,6 +17,14 @@ from app.models.models import (
 settings_router = APIRouter()
 
 
+@settings_router.get("/database/init")
+async def init_database():
+    async with engine.begin() as conn:
+        # await conn.run_sync(Base.metadata.drop_all)
+        await conn.run_sync(Base.metadata.create_all)
+        return JSONResponse(content={"database": "initialized"})
+
+
 @settings_router.get("/database/reset")
 async def reset_database():
     async with engine.begin() as conn:
@@ -51,7 +59,7 @@ async def init_messages_data_database(
             if not well:
                 continue
             message.water_level = str(
-                int(well.depth) - round(float(message.water_level))
+                int(str(well.depth)) - round(float(message.water_level))
             )
             message = MessageModel(
                 message_id=str(message.message_id),
