@@ -1,6 +1,5 @@
 from datetime import datetime, timedelta, timezone
 import random
-from numpy import number
 from sqlalchemy.future import select
 from app.core.database import get_session
 from app.models.models import WellsModel, MessageModel
