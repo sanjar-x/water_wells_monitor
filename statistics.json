@@ -22232,51 +22232,59 @@
     "salinity": "136664.13"
   },
   {
+    "water_level": "112",
     "message_id": "364abad9-6e7d-4659-bde7-66a41b09ddc1",
-    "water_level": "288",
     "received_at": "2024-10-20T00:36:55.856155",
     "number": "998993454707",
     "temperature": "22.54",
-    "salinity": "12083.68"
+    "salinity": "2778.520626945712"
   },
   {
-    "message_id": "5bb3b6b6-b172-4e89-bc78-e1e1b4b35cdb",
-    "water_level": "384",
-    "received_at": "2024-10-20T00:41:54.505096",
-    "number": "998993456397",
-    "temperature": "18.28",
-    "salinity": "309464.25"
-  },
-  {
+    "water_level": "206",
     "message_id": "4290d5ce-66c4-44fb-b2c0-9162459959a4",
-    "water_level": "194",
     "received_at": "2024-10-20T01:10:32.537505",
     "number": "998993452563",
     "temperature": "16.61",
-    "salinity": "4390.57"
+    "salinity": "2543.589848072216"
   },
   {
+    "water_level": "51",
     "message_id": "58b7bf80-2b63-4b6b-b6a5-55a56d250877",
-    "water_level": "349",
     "received_at": "2024-10-20T02:10:58.228030",
     "number": "998993456437",
     "temperature": "22.14",
-    "salinity": "268081.34"
+    "salinity": "2447.7140111251115"
   },
   {
+    "water_level": "239",
     "message_id": "a83e6bb8-bd95-41c8-a649-4f0c991e133b",
-    "water_level": "161",
     "received_at": "2024-10-20T07:32:45.156435",
     "number": "998993456433",
     "temperature": "2.93",
-    "salinity": "4460.42"
+    "salinity": "1981.4366855921478"
   },
   {
+    "water_level": "72",
     "message_id": "f16dff4b-7ec7-47cc-8fd4-e45b1f9226be",
-    "water_level": "228",
     "received_at": "2024-10-20T07:41:54.532508",
     "number": "998936863646",
     "temperature": "35.73",
     "salinity": "3011.39"
+  },
+  {
+    "water_level": "362",
+    "message_id": "994fd568-a1c2-414a-9049-7f906ef9ea0a",
+    "received_at": "2024-10-20T12:21:36.439470",
+    "number": "998993456433",
+    "temperature": "2.71",
+    "salinity": "1982.014583065908"
+  },
+  {
+    "water_level": "383",
+    "message_id": "e0e76605-1947-4b13-886b-73546ff66d6a",
+    "received_at": "2024-10-20T14:05:50.208721",
+    "number": "998993456438",
+    "temperature": "18.38",
+    "salinity": "1883.2249696888414"
   }
 ]

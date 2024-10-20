@@ -4,4 +4,4 @@ __pycache__/
 data.json
 fargona.json
 test.py
-app/core/database.db
+# app/core/database.db
