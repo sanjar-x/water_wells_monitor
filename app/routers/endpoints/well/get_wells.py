@@ -7,5 +7,5 @@ router = APIRouter()
 
 @router.get("/wells/")
 async def get_wells_endpoint():
-    await update_well_status()
+    # await update_well_status()
     return await get_wells()
