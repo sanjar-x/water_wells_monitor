@@ -68,20 +68,9 @@ async def generate_well_message():
                 number=well.number,
             )
             if last_message:
-
                 received_at_with_tz = last_message.received_at.replace(tzinfo=tz)
-                print(received_at_with_tz)
-                print("received_at_with_tz", received_at_with_tz)
-                print(
-                    "datetime.now(tz) - received_at_with_tz",
-                    datetime.now(tz) - received_at_with_tz,
-                )
-                if timedelta(hours=5) < datetime.now(tz) - received_at_with_tz:  # type: ignore
+                if timedelta(hours=5) < datetime.now(tz) - received_at_with_tz and well.time < received_at_with_tz + timedelta(hours=5):  # type: ignore
                     gen_message.received_at = received_at_with_tz + timedelta(hours=5)
-                    print(
-                        "gen_message.received_at",
-                        gen_message.received_at,
-                    )
                     session.add(gen_message)
                     await session.commit()
             else:
