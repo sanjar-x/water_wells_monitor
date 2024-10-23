@@ -71,14 +71,17 @@ async def generate_well_message():
             if last_message:
                 received_at_with_tz = last_message.received_at.replace(tzinfo=tz)
                 next_allowed_time = received_at_with_tz + timedelta(hours=5)
-                if current_time >= next_allowed_time:
-                    gen_message.received_at = next_allowed_time
-                    session.add(gen_message)
-                    await session.commit()
-            else:
+                
+                if current_time < next_allowed_time:
+                    continue
+                
+                gen_message.received_at = next_allowed_time
                 session.add(gen_message)
                 await session.commit()
-            
+            else:
+                gen_message.received_at = current_time
+                session.add(gen_message)
+                await session.commit()
 
 
 
