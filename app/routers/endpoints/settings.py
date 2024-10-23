@@ -3,7 +3,7 @@ from typing import List
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 from app.core.database import engine, get_session
-from app.schemas.wells_schemas import WellSchema, WellDevSchema
+from app.schemas.wells_schemas import WellSchema, WelleDevSchema
 from app.schemas.message_schemas import MessageSchema
 from app.services.crud.well_crud import get_well_by_number
 from app.models.models import (
@@ -51,7 +51,7 @@ async def init_wells_data_database(
 
 @settings_router.post("/database/init/wellls/dev")
 async def init_wells_data_database_dev(
-    wells: List[WellDevSchema],
+    wells: List[WelleDevSchema],
 ):
     async with get_session() as session:
         for well in wells:
