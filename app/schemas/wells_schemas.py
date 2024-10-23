@@ -77,6 +77,11 @@ class WellDevSchema(BaseModel):
     longitude: str
     salinity_start: Optional[str] = None
     salinity_end: Optional[str] = None
+    temperature_start: Optional[str] = None
+    temperature_end: Optional[str] = None
+    water_level_start: Optional[str] = None
+    water_level_end: Optional[str] = None
     depth: str
+    auto: Optional[bool] = False
     status: bool
     time: datetime
