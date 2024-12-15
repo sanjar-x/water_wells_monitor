@@ -1,13 +1,13 @@
 from fastapi import APIRouter, status
 from fastapi.responses import JSONResponse
-from app.schemas.wells_schemas import WelleSchema, WelleDevSchema
+from app.schemas.wells_schemas import WellsSchema, WellsDevSchema
 from app.services.crud.well_crud import create_well, get_well_by_number
 
 router = APIRouter()
 
 
 @router.post("/well")
-async def create_well_dev_(well_data: WelleSchema):
+async def create_well_dev_(well_data: WellsSchema):
     existing_well = await get_well_by_number(well_data.number)
     if existing_well:
         return JSONResponse(
@@ -24,7 +24,7 @@ async def create_well_dev_(well_data: WelleSchema):
 
 
 @router.post("/well/dev")
-async def create_well_(well_data: WelleDevSchema):
+async def create_well_(well_data: WellsDevSchema):
     existing_well = await get_well_by_number(well_data.number)
     if existing_well:
         return JSONResponse(

@@ -3,7 +3,7 @@ from uuid import UUID
 from pydantic import BaseModel
 
 
-class WelleSchema(BaseModel):
+class WellsSchema(BaseModel):
     name: Optional[str] = None
     number: str
     address: Optional[str] = None
@@ -12,7 +12,7 @@ class WelleSchema(BaseModel):
     depth: Optional[str] = None
 
 
-class WelleDevSchema(BaseModel):
+class WellsDevSchema(BaseModel):
     name: Optional[str] = None
     number: str
     address: Optional[str] = None
@@ -46,32 +46,7 @@ class WelleUpdateDevSchema(BaseModel):
     depth: Optional[str] = None
     salinity_start: Optional[str] = None
     salinity_end: Optional[str] = None
-
-
-from datetime import datetime
-
-
-class WellSchema(BaseModel):
-    well_id: UUID
-    name: str
-    number: str
-    address: str
-    latitude: str
-    longitude: str
-    depth: str
-    status: bool
-    created_time: datetime
-
-
-class WellDevSchema(BaseModel):
-    well_id: UUID
-    name: str
-    number: str
-    address: str
-    latitude: str
-    longitude: str
-    salinity_start: Optional[str] = None
-    salinity_end: Optional[str] = None
-    depth: str
-    status: bool
-    time: datetime
+    temperature_start: Optional[str] = None
+    temperature_end: Optional[str] = None
+    water_level_start: Optional[str] = None
+    water_level_end: Optional[str] = None

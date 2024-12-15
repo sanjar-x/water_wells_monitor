@@ -7,8 +7,8 @@ from sqlalchemy.exc import NoResultFound, SQLAlchemyError
 from app.core.database import get_session
 from app.models.models import WellsModel
 from app.schemas.wells_schemas import (
-    WelleSchema,
-    WelleDevSchema,
+    WellsSchema,
+    WellsDevSchema,
     WelleUpdateSchema,
     WelleUpdateDevSchema,
 )
@@ -16,7 +16,7 @@ from app.schemas.wells_schemas import (
 logger = logging.getLogger(__name__)
 
 
-async def create_well(well_data: Union[WelleSchema, WelleDevSchema]) -> WellsModel:
+async def create_well(well_data: Union[WellsSchema, WellsDevSchema]) -> WellsModel:
     async with get_session() as session:
         new_well = WellsModel(**well_data.model_dump())
         session.add(new_well)
