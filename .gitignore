@@ -1,9 +1,6 @@
 venv/
 .vscode/
 __pycache__/
-wells.json
-statistics.json
 test.py
 .env
-/**.json
 # app/core/database.db
