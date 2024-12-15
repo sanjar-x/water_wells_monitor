@@ -13,6 +13,7 @@ class WellsSchema(BaseModel):
 
 
 class WellsDevSchema(BaseModel):
+    well_id: UUID
     name: Optional[str] = None
     number: str
     address: Optional[str] = None

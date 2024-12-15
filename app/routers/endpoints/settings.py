@@ -3,7 +3,7 @@ from typing import List
 from fastapi import APIRouter
 from fastapi.responses import JSONResponse
 from app.core.database import engine, get_session
-from app.schemas.wells_schemas import WellSchema, WellDevSchema
+from app.schemas.wells_schemas import WellsSchema, WellsDevSchema
 from app.schemas.message_schemas import MessageSchema
 from app.services.crud.well_crud import get_well_by_number
 from app.models.models import (
@@ -34,24 +34,9 @@ async def reset_database():
         return JSONResponse(content={"database": "reseted"})
 
 
-@settings_router.post("/database/init/wellls")
-async def init_wells_data_database(
-    wells: List[WellSchema],
-):
-    async with get_session() as session:
-        for well in wells:
-            new_well = WellsModel(
-                well_id=str(well.well_id),
-                time=well.created_time,
-                **well.model_dump(exclude={"well_id", "created_time"}),
-            )
-            session.add(new_well)
-            await session.commit()
-
-
 @settings_router.post("/database/init/wellls/dev")
 async def init_wells_data_database_dev(
-    wells: List[WellDevSchema],
+    wells: List[WellsDevSchema],
 ):
     async with get_session() as session:
         for well in wells:
