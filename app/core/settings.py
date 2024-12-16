@@ -34,5 +34,8 @@ class Settings(BaseSettings):
     database_session_autoflush: bool = False
     database_session_expire_on_commit: bool = False
 
+    class Config:
+        env_file = ".env"
+
 
 settings = Settings()  # type: ignore

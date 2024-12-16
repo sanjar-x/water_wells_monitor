@@ -3,4 +3,6 @@ venv/
 __pycache__/
 test.py
 .env
+messages.json
+wells.json
 # app/core/database.db

@@ -32,13 +32,15 @@ async def update_well_status():
 
 async def generate_well_message():
     tz = timezone(timedelta(hours=5))
-    async with get_session() as session:
+    async with get_session() as session:  # Assuming get_session is defined elsewhere
         result = await session.execute(select(WellsModel))
         wells = result.scalars().all()
 
         for well in wells:
-            if not well.auto:  # type: ignore
+            if not well.auto:  # Skip wells that are not marked as auto
                 continue
+
+            # Fetch the last message for the current well
             last_message_query = (
                 select(MessageModel)
                 .where(MessageModel.number == well.number)
@@ -46,6 +48,8 @@ async def generate_well_message():
             )
             messages = await session.execute(last_message_query)
             last_message = messages.scalars().first()
+
+            # Create the new message
             gen_message = MessageModel(
                 temperature=str(
                     random.uniform(
@@ -67,12 +71,23 @@ async def generate_well_message():
                 ),
                 number=well.number,
             )
-            if last_message:
-                received_at_with_tz = last_message.received_at.replace(tzinfo=tz)
-                if timedelta(hours=5) > datetime.now(tz) - received_at_with_tz:  # type: ignore
-                    gen_message.received_at = received_at_with_tz + timedelta(hours=5)
-            else:
-                gen_message.received_at = datetime.now(tz)  # type: ignore
 
-            session.add(gen_message)
-            await session.commit()
+            if last_message:
+                received_at_with_tz = last_message.received_at.astimezone(tz)
+                print(f"before {last_message.message_id}", received_at_with_tz)
+
+                if timedelta(hours=5) < datetime.now(tz) - received_at_with_tz:
+                    gen_message.received_at = received_at_with_tz + timedelta(hours=5)
+                    print("after", received_at_with_tz + timedelta(hours=5))
+                    session.add(gen_message)
+                else:
+                    print(
+                        f"Skipping well {well.number}: last message received less than 5 hours ago."
+                    )
+                    continue
+
+            else:
+                gen_message.received_at = datetime.now(tz)
+                session.add(gen_message)
+
+        await session.commit()
