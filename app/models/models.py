@@ -77,14 +77,20 @@ class MessageModel(Base):
     number = Column(String, nullable=True)
     received_at = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 
-    # {
-    #     "water_level": "30",
-    #     "message_id": "8e31787d-a7bf-46b7-bb4f-bffcb0d2a437",
-    #     "received_at": "2024-09-27T05:11:26.526181",
-    #     "number": "998993456427",
-    #     "temperature": "18.88",
-    #     "salinity": "2274.587511200289",
-    # },
+
+class ErrorMessageModel(Base):
+    __tablename__ = "error_messages"
+    message_id = Column(
+        String,
+        primary_key=True,
+        default=lambda: str(uuid.uuid4()),
+        unique=True,
+    )
+    temperature = Column(String, nullable=True)
+    salinity = Column(String, nullable=True)
+    water_level = Column(String, nullable=True)
+    number = Column(String, nullable=True)
+    received_at = Column(DateTime(timezone=True), default=lambda: datetime.now(tz))
 
 
 class StatementModel(Base):

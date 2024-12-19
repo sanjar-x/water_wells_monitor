@@ -5,5 +5,7 @@ test.py
 .env
 messages.json
 wells.json
+sirdaryo.json
+uychi.json
 centre.cpp
 # app/core/database.db

@@ -73,6 +73,7 @@ async def generate_well_message():
 
             if last_message:
                 received_at_with_tz = last_message.received_at.astimezone(tz)
+                print(received_at_with_tz)
                 if timedelta(hours=5) < datetime.now(tz) - received_at_with_tz:
                     gen_message.received_at = received_at_with_tz + timedelta(hours=5)
                     session.add(gen_message)
