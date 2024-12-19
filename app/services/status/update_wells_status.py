@@ -24,7 +24,7 @@ async def update_well_status():
             last_message = messages.scalars().first()
             if last_message:
                 received_at_with_tz = last_message.received_at.replace(tzinfo=tz)
-                if timedelta(days=2) > datetime.now(tz) - received_at_with_tz:  # type: ignore
+                if timedelta(hours=10) > datetime.now(tz) - received_at_with_tz:  # type: ignore
                     well.status = True  # type: ignore
                 else:
                     well.status = False  # type: ignore
@@ -73,7 +73,6 @@ async def generate_well_message():
 
             if last_message:
                 received_at_with_tz = last_message.received_at.astimezone(tz)
-                print(received_at_with_tz)
                 if timedelta(hours=5) < datetime.now(tz) - received_at_with_tz:
                     gen_message.received_at = received_at_with_tz + timedelta(hours=5)
                     session.add(gen_message)
