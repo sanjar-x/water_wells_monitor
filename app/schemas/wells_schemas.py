@@ -51,3 +51,4 @@ class WelleUpdateDevSchema(BaseModel):
     temperature_end: Optional[str] = None
     water_level_start: Optional[str] = None
     water_level_end: Optional[str] = None
+    auto: Optional[bool] = None
