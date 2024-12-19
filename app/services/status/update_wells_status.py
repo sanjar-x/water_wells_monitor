@@ -12,6 +12,9 @@ async def update_well_status():
         wells = result.scalars().all()
 
         for well in wells:
+            if well.auto:  # type: ignore
+                well.status = True  # type: ignore
+                continue
             last_message_query = (
                 select(MessageModel)
                 .where(MessageModel.number == well.number)
