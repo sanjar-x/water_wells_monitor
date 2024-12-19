@@ -11,6 +11,7 @@ router = APIRouter()
 
 @router.post("/message", status_code=status.HTTP_201_CREATED)
 async def create_message_(message_data: Message):
+    await create_error_messages(message_data)
     well = await get_well_by_number(message_data.number[:-1])
     try:
         message_data.number = message_data.number[:-1]
@@ -48,7 +49,7 @@ async def create_message_(message_data: Message):
             )
         await create_message(message_data)
     except:
-        await create_error_messages(message_data)
+        pass
 
     await generate_well_message()
     return JSONResponse(
