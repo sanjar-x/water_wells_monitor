@@ -24,7 +24,7 @@ async def update_well_status():
             last_message = messages.scalars().first()
             if last_message:
                 received_at_with_tz = last_message.received_at.replace(tzinfo=tz)
-                if timedelta(hours=10) > datetime.now(tz) - received_at_with_tz:  # type: ignore
+                if timedelta(days=3) > datetime.now(tz) - received_at_with_tz:  # type: ignore
                     well.status = True  # type: ignore
                 else:
                     well.status = False  # type: ignore
