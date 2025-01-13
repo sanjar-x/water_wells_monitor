@@ -7,8 +7,8 @@ from sqlalchemy.exc import NoResultFound, SQLAlchemyError
 from app.core.database import get_session
 from app.models.models import WellsModel
 from app.schemas.wells_schemas import (
-    WellsSchema,
-    WellsDevSchema,
+    WellsCreateSchema,
+    WellsCreateDevSchema,
     WelleUpdateSchema,
     WelleUpdateDevSchema,
 )
@@ -16,11 +16,13 @@ from app.schemas.wells_schemas import (
 logger = logging.getLogger(__name__)
 
 
-async def create_well(well_data: Union[WellsSchema, WellsDevSchema]) -> WellsModel:
+async def create_well(
+    well_data: Union[WellsCreateSchema, WellsCreateDevSchema]
+) -> WellsModel:
     async with get_session() as session:
         new_well = WellsModel(**well_data.model_dump())
         session.add(new_well)
-        await session.commit()  # type: ignore
+        await session.commit()
         return new_well
 
 
@@ -54,7 +56,7 @@ async def get_well_by_number(number: str) -> Optional[WellsModel]:
         try:
             result = await session.execute(
                 select(WellsModel).filter(WellsModel.number == number)
-            )  # type: ignore
+            )
             return result.scalar_one()
         except NoResultFound:
             return None
@@ -68,7 +70,7 @@ async def get_inactive_well(number: str) -> Optional[WellsModel]:
         try:
             result = await session.execute(
                 select(WellsModel).filter(WellsModel.number == number)
-            )  # type: ignore
+            )
             return result.scalar_one()
         except NoResultFound:
             return None
@@ -108,8 +110,8 @@ async def delete_well(well_id: str) -> bool:
         try:
             await session.execute(
                 delete(WellsModel).where(WellsModel.well_id == well_id)
-            )  # type: ignore
-            await session.commit()  # type: ignore
+            )
+            await session.commit()
             return True
         except NoResultFound:
             return False

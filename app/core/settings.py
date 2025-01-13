@@ -34,6 +34,11 @@ class Settings(BaseSettings):
     database_session_autoflush: bool = False
     database_session_expire_on_commit: bool = False
 
+    secret: SecretStr
+    verify_secret: SecretStr
+    algorithm: SecretStr
+    kid: SecretStr
+
     class Config:
         env_file = ".env"
 

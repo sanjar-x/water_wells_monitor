@@ -9,17 +9,18 @@ from dotenv import load_dotenv
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from jose import jwt, ExpiredSignatureError, JWTError
-
+from .settings import settings
 from app.schemas.token_schemas import TokenSchema
+
 
 logging.basicConfig(level=logging.INFO)
 
 
-SECRET = "wN44DLwPF7wwwaQF6ffWGNp1Zh2FFV9UP7iXpJh8osS86QzOq4zwnTV6Pu7CdjALGn9pgoMFDLX3rkWzhywR0uf6geVHb8AExl3"
-VERIFY_SECRET = "OpnceCpmfu8HLEbI77R7bV8uQfNOfOQ3mOK5crwp6fFANSV8gtrxUTf9aAJ3jAdFmDeUuvpSJfvxU7RxNUnaFDKg3RNoDDAjNpWX"
-ALGORITHM = "HS256"
+SECRET = settings.secret.get_secret_value()
+VERIFY_SECRET = settings.verify_secret.get_secret_value()
+ALGORITHM = settings.algorithm.get_secret_value()
+KID = settings.kid.get_secret_value()
 TOKEN_EXP = 3600.0
-KID = "1"
 
 
 load_dotenv()
