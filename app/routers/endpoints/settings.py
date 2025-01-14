@@ -56,14 +56,10 @@ async def init_messages_data_database(
             well = await get_well_by_number(message.number)
             if not well:
                 continue
-            message.water_level = str(
-                int(str(well.depth)) - round(float(message.water_level))
-            )
-            if well.salinity_start:  # type: ignore
-                message.salinity = str(
-                    random.uniform(
-                        float(str(well.salinity_start)), float(str(well.salinity_end))
-                    )
+
+            if message.water_level:
+                message.water_level = str(
+                    int(str(well.depth)) - round(float(message.water_level))
                 )
             message = MessageModel(
                 message_id=str(message.message_id),
