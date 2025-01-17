@@ -1,4 +1,5 @@
 import random
+from app.services.centre import send_data
 from fastapi import APIRouter, status
 from fastapi.responses import JSONResponse
 from app.services.crud.message_crud import create_message, create_error_messages
@@ -41,12 +42,19 @@ async def create_message_(message_data: Message):
                 message_data.water_level = str(
                     int(str(well.depth)) - round(float(message_data.water_level[2:-1]))
                 )
+        await send_data(
+            code=well.imei,
+            level=float(message_data.water_level),
+            meneral=float(message_data.salinity),
+            temperature=float(message_data.temperature),
+        )
     else:
         message_data.salinity = message_data.salinity[2:-1]
         message_data.temperature = message_data.temperature[2:-1]
         message_data.water_level = message_data.water_level[2:-1]
 
     await create_message(message_data)
+
     await generate_well_message()
     return JSONResponse(
         content={"message": "Message received"},

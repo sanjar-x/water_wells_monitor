@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta, timezone
 import random
+from app.services.centre import send_data
 from sqlalchemy.future import select
 from app.core.database import get_session
 from app.models.models import WellsModel, MessageModel
@@ -76,9 +77,14 @@ async def generate_well_message():
                 if timedelta(hours=5) < datetime.now(tz) - received_at_with_tz:
                     gen_message.received_at = received_at_with_tz + timedelta(hours=5)
                     session.add(gen_message)
+                    await send_data(
+                        code=well.imei,
+                        level=float(gen_message.water_level),
+                        meneral=float(gen_message.salinity),
+                        temperature=float(gen_message.temperature),
+                    )
                 else:
                     continue
-
             else:
                 gen_message.received_at = datetime.now(tz)  # type: ignore
                 session.add(gen_message)
