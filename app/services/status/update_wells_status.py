@@ -80,7 +80,7 @@ async def generate_well_message():
                     await send_data(
                         code=well.imei,
                         level=float(gen_message.water_level),
-                        meneral=float(gen_message.salinity),
+                        meneral=float(gen_message.salinity) / 1000,
                         temperature=float(gen_message.temperature),
                     )
                 else:
