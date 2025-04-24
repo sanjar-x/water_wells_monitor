@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from requests import post
-
+import random
 
 async def send_data(code: int, level: float, meneral: float, temperature: float):
     now = datetime.today() + timedelta(hours=5)
