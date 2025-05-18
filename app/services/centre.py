@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from requests import post
+from requests import post, exceptions
 import random
 
 async def send_data(code: int, level: float, meneral: float, temperature: float):
@@ -15,15 +15,19 @@ async def send_data(code: int, level: float, meneral: float, temperature: float)
 
     today = int(rand_time.strftime("%Y%m%d%H%M"))
 
-    post(
-        url="http://89.236.195.198:3010",
-        json={
-            "code": code,
-            "data": {
-                "level": level,
-                "meneral": meneral,
-                "temperatyra": temperature,
-                "vaqt": today,
+    try:
+        post(
+            url="http://89.236.195.198:3010",
+            json={
+                "code": code,
+                "data": {
+                    "level": level,
+                    "meneral": meneral,
+                    "temperatyra": temperature,
+                    "vaqt": today,
+                },
             },
-        },
-    )
+            timeout=1  # явно задаём тайм-аут
+        )
+    except exceptions.RequestException as e:
+        pass
